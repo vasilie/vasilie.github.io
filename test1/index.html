@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WakeUp</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div id="overlay" class="overlay overlay-data">
+            <div class="overlay-close" onclick="closeOverlay()"><img src="./img/cancel.svg" alt="close"></div>
+            <ul>
+                <li class="nav-home" onclick="closeOverlay()"><a href="#top">Home</a></li>
+                <li><a href="#philosophy" onclick="closeOverlay()">Philosophy</a></li>
+                <li><a href="#how-it-works" onclick="closeOverlay()">How it works</a></li>
+                <li><a href="#touch" onclick="closeOverlay()">Get in touch</a></li>
+            </ul>
+            <div class="contact-wrapper">
+                <div class="overlay-border"></div>
+                <div class="contact">
+                    <p>Sun Core Tech Ltd</p>
+                    <p>Dublin, Ireland</p>
+                    <p><a href="mailto:info@suntoken.io?subject=Information">info@suntoken.io</a></p>
+                </div>
+                <div class="follow-icons">
+                    <div>
+                        <a href="https://www.facebook.com/suntokenecosystem/" target="_blank"><img
+                                src="./img/group9@3x.png" alt="facebook"></a>
+                    </div>
+                    <div>
+                        <a href="https://medium.com/@suntokenecosystem" target="_blank"><img src="./img/group10@3x.png"
+                                alt="medium"></a>
+                    </div>
+                    <div>
+                        <a href="https://twitter.com/suntokeneco" target="_blank"><img src="./img/group11@3x.png"
+                                alt="twitter"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCWwwpbYqeKhQ-ygKzKfKuJQ" target="_blank"><img
+                                src="./img/iconfinderYoutubeCircleColor1071672@3x.png" alt="youtube"></a>
+                    </div>
+                    <div>
+                        <a href="https://t.me/suntokenecosystem" target="_blank"><img src="./img/group12@3x.png"
+                                alt="telegram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <article id="landing" class="landing">
+            <div class="header">
+                <div class="logo-wrapper">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                <div class="navigation">
+                    <a href="#philosophy">Philosophy</a>
+                    <a href="#how-it-works">How it works</a>
+                    <a href="#touch">Get in touch</a>
+                </div>
+            </div>
+            <div id="mobile-menu" class="mobile-menu">
+                <div class="mobile-logo-wrapper">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                <div class="menu-wrapper"><img src="./img/menu.svg" alt="menu" onclick="openOverlay()"></div>
+            </div>
+
+            <article class="work-in-progress-container">
+                <h1 id="first" class="landing-title">Social Network that shares back<span class="yellow">.</span></h1>
+                <p id="second" class="landing-text">Trusted blockchain-based and smart contracts driven social network.
+                </p>
+                <p id="third" class="release-note">App will be available soon </p>
+                <div id="fourth">
+                    <div class="app-store"><img src="./img/downloadOnTheAppStoreBadgeUsUkBlk092917@3x.png"
+                            alt="app-store"></div>
+                    <div class="play-store"><img src="./img/enBadgeWebGeneric@3x.png" alt="play-store"></div>
+                </div>
+
+                <div id="fifth" class="img-wrapper">
+                    <img src="./img/group14@3x.png" alt="iPhone">
+                </div>
+            </article>
+        </article>
+
+        <article class="discover">
+            <h4 class="discover-title">DISCOVER WAKEUP ZONE</h4>
+            <div class="discover-info">WakeUp.zone is an exciting next generation social network built on top of the
+                powerful blockchain-based and smart contracts
+                driven <a href="https://suntoken.io/"><span class="blue">Sun Core</span></a> engine that safeguards four
+                pillar values of data protection
+                and privacy.
+            </div>
+        </article>
+
+        <article class="blockchain">
+            <div class="img-and-dscr-wrapper">
+                <div class="image-and-description">
+                    <div class="description-wrapper">
+                        <div class="background-title">Blokchain</div>
+                        <div class="description">
+                            <h4>BLOCKCHAIN SOLUTION</h4>
+                            <h2>Trusted solution<span class="yellow">.</span></h2>
+                            <p>Data ownership and privacy.</p>
+                            <div>The SUN Ecosystem is designed as a hybrid between blockchain technology and
+                                ElasticSearch database. Private key is
+                                used for signing data ownership. Each access to data is registered on the blockchain and
+                                available in the public blockchain explorer.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-image">
+                        <img src="./img/coin@3x.png" alt="suntoken">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="philosophy">
+            <h1 class="philosophy-heading">Our philosophy</h1>
+            <article class="philosophy-wrapper">
+                <div class="philosophy-container">
+                    <div class="philosophy-icon-wrapper">
+                        <img src="./img/icon-ownership.svg" alt="ico">
+                    </div>
+                    <div>
+                        <div class="philosophy-title">Ownership</div>
+                        <div class="philosophy-info">User is the sole owner of data, and can publish, change or delete
+                            data at any time.
+                        </div>
+                        <div class="border"></div>
+                    </div>
+                    <!-- Empty divs are for blank space between columns -->
+                    <div></div>
+                    <div class="philosophy-icon-wrapper">
+                        <img src="./img/icon-privacy.svg" alt="ico">
+                    </div>
+                    <div>
+                        <div class="philosophy-title">Privacy</div>
+                        <div class="philosophy-info">User controls privacy levels and decides which data is shared.
+                        </div>
+                        <div class="border"></div>
+                    </div>
+                    <div class="philosophy-icon-wrapper">
+                        <img src="./img/icon-compensation.svg" alt="ico">
+                    </div>
+                    <div>
+                        <div class="philosophy-title">Compensation</div>
+                        <div class="philosophy-info">User is compensated for any utilization of his/hers data.</div>
+                    </div>
+                    <div></div>
+                    <div class="philosophy-icon-wrapper">
+                        <img src="./img/icon-trust.svg" alt="ico">
+                    </div>
+                    <div>
+                        <div class="philosophy-title">Trust</div>
+                        <div class="philosophy-info">Blockchain and smart contracts secure data handling and
+                            monetization.</div>
+                    </div>
+                </div>
+            </article>
+            <div class="vertical-line"></div>
+            <div class="philosophy-circle">
+                <div class="circle">
+                    <div>
+                        <p>Be wise.</p>
+                        <p>Share smarter.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="how-it-works">
+            <div class="img-and-dscr-wrapper">
+                <div class="image-and-description">
+                    <div class="section-image">
+                        <img class="primary" src="./img/group16@3x.png">
+                        <img class="secondary" src="./img/myProfile2@3x.png">
+                    </div>
+                    <div class="description-wrapper">
+                        <div class="background-title">Ownership</div>
+                        <div class="description">
+                            <h4>HOW IT WORKS</h4>
+                            <h2>Create account. Get 10€*<span class="yellow">.</span></h2>
+                            <p>Start sharing and we will share back.</p>
+			    <div>User creates account on the WakeUp.zone, generates public and private keys and gets a digital wallet. The Sun Core system will award each new user with SUN tokens equal to 10€.<br>
+* 1€ will be automatically donated to the Philanthropy account (regulated by a smart contract)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="how-to-earn">
+            <div class="img-and-dscr-wrapper">
+                <div class="image-and-description">
+                    <div class="description-wrapper">
+                        <div class="description">
+                            <h4>HOW TO EARN</h4>
+                            <h2>Profile yourself. Earn more money<span class="yellow">.</span></h2>
+                            <p>Share your interests and affinities with us and we will share back.</p>
+                            <div>We are not profiling users according to their posts, comments and likes. We do not truck our users. Instead we are offering you a set of forms to fill in that will tell us about your interests & affinities. For each form submitted you get SUN tokens equal to 10€*.<br>
+* 1€ will be automatically donated to the Philanthropy account (regulated by a smart contract)
+                                </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="background-title">Privacy</div>
+                        <div class="section-image">
+                            <img src="./img/group23@3x.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="trust">
+            <div class="img-and-dscr-wrapper">
+                <div class="image-and-description">
+                    <div class="section-image">
+                        <img src="./img/group18@3x.png">
+                    </div>
+                    <div class="description-wrapper">
+                        <div class="background-title">Trust</div>
+                        <div class="description">
+                            <h4>WAKE UP CALL</h4>
+                            <h2>Tell a friend. Get 5€<span class="yellow">.</span></h2>
+                            <p>We appreciate your help.</p>
+                            <div>The Sun Core ecosystem has an affiliate program. Users that share our passion and enthusiasm by referring us to their friends will receive an award in SUN tokens equal to 5€ for every referred friend that joins our community.
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="tokens">
+            <div class="tokens-wrapper">
+                <div class="background-title">Tokens</div>
+                <div></div>
+                <div class="circle-wrapper">
+                    <div class="circle">
+                        <div>
+                            <p>Watch ads.</p>
+                            <p>Get paid.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="status-image">
+                    <img src="./img/group7@3x.png">
+                </div>
+                <div class="posts-image">
+                    <img src="./img/group19@3x.png">
+                </div>
+                <div class="sport-image">
+                    <img src="./img/group7Copy@3x.png">
+                </div>
+            </div>
+        </article>
+
+        <article class="extra-tokens">
+            <div class="description">
+                <h4>EARN EXTRA MONEY</h4>
+                <h2>Watch ads. Share the profit with us<span class="yellow">.</span></h2>
+            </div>
+            <div class="description">
+                <p>Let targeted advertising work for you.</p>
+                <div>Whenever you are targeted by advertisers (according to the forms you have filled in), you will receive a share of the price that advertiser paid for the ad placement. If you want to earn even more, go to the ‘Ads only’ section, browse through ads and get paid for each ad watched.
+
+                </div>
+            </div>
+        
+	</article>
+	   <article class="discover">
+            <h4 class="discover-title">Philanthropy account. Help the planet and others in need</h4>
+            <div class="discover-info">In order to help the efforts of many activists and organisations that are fighting for environment protection or helping to improve the lives of indigenous communities, we created a philanthropy account. Every single transaction on our platform will donate small fees to this account. Once a year, projects of a philanthropic nature will compete for the funds from the philanthropy account and you will be the jury. 
+
+            </div>
+        </article>
+        
+	<div>
+            <div class="back-to-top">
+                <div class="to-top-img-wrapper"><a href="#top"><img src="./img/arrowUp@3x.png" alt="back-to-top"></a>
+                </div>
+                <div>
+                    <p>Back to top</p>
+                </div>
+            </div>
+        </div>
+        <article class="latest-updates">
+            <div class="description">
+                <h4>LATEST UPDATES</h4>
+                <h2>Get me notified<span class="yellow">.</span></h2>
+                <p>Early adopter list</p>
+                <div>If you recognize our efforts and share our enthusiasm about the
+                    WakeUp philosophy please subscribe and be among the first to receive latest news, updates and
+                    stories about the WakeUp.zone.
+                </div>
+            </div>
+            <div class="mail-form" id="mc_embed_signup">
+                <form id="subscribeform"
+                    action="https://yahoo.us20.list-manage.com/subscribe/post?u=01cd0b39eaed132b9d4a16b6e&amp;id=18c054365d&c=callback"
+                    method="post" target="_blank" novalidate>
+                    <div id="js-form-inputs">
+                        <div>
+                            <div class="mail-label">E-mail address</div>
+                            <input type="email" name="EMAIL" id="mce-EMAIL" value=""><input class="disabled"
+                                type="submit" name="subscribe" id="mc-embedded-subscribe" value="Subscribe" disabled>
+                        </div>
+                    </div>
+
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id="agreement" onclick="toggleCheckbox()">
+                        <label for="agreement"></label>
+                    </div>
+                    <p class="checkbox-label">I agree that my contact information
+                        is saved and used to inform me via email of news and other information regarding WakeUp.zone.
+                    </p>
+
+                    <!-- honeypot -->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                            id="js-validate-robot" name="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" tabindex="-1" value="">
+                    </div>
+
+                    <!-- submit -->
+
+
+                    <!-- response -->
+                    <p id="js-subscribe-response"></p>
+                </form>
+            </div>
+        </article>
+        <article id="touch">
+            <div class="description">
+                <h4>CONTACT</h4>
+                <h2>Write to us<span class="yellow">.</span></h2>
+                <p class="info">Get in touch with founders of Sun Core Tech Ltd</p>
+                <p class="firm">Sun Core Tech Ltd</p>
+                <p>Dublin, Ireland</p>
+                <p class="follow">Follow us</p>
+                <div class="follow-icons">
+                    <div>
+                        <a href="https://www.facebook.com/suntokenecosystem/" target="_blank"><img
+                                src="./img/group9@3x.png" alt="facebook"></a>
+                    </div>
+                    <div>
+                        <a href="https://medium.com/@suntokenecosystem" target="_blank"><img src="./img/group10@3x.png"
+                                alt="medium"></a>
+                    </div>
+                    <div>
+                        <a href="https://twitter.com/suntokeneco" target="_blank"><img src="./img/group11@3x.png"
+                                alt="twitter"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCWwwpbYqeKhQ-ygKzKfKuJQ" target="_blank"><img
+                                src="./img/iconfinderYoutubeCircleColor1071672@3x.png" alt="youtube"></a>
+                    </div>
+                    <div>
+                        <a href="https://t.me/suntokenecosystem" target="_blank"><img src="./img/group12@3x.png"
+                                alt="telegram"></a>
+                    </div>
+                </div>
+            </div>
+<!------------------------------------ Contact form  ---------------------------------->
+            <div class="contact-form">
+                <form id="form">
+                    <input type="hidden" name='action' value='contactForm'>
+                    <div class="group name">
+                        <input type="text" name='name' id='name' required>
+                        <label for="name">NAME</label>
+                    </div>
+                    <div class="two-inputs-in-line">
+                        <div class="group mail">
+                            <input type="text" name='email' id='email' required>
+                            <label for="email">EMAIL</label>
+                        </div>
+                        <div class="group company">
+                            <input type="text" name='company' id='company'>
+                            <label for="company">COMPANY</label>
+                        </div>
+                    </div>
+                    <div class="group message">
+                        <label for="message">MESSAGE</label>
+                        <p>What’s on your mind</p>
+                        <textarea onkeyup="auto_grow(this);" name='message' id='message' rows="1"></textarea>
+                    </div>
+                    <div class="submit-btn-wrapper"><button>Send</button></div>
+                </form>         
+                <div class="success_msg" id="mail_success">Message is send.</div>
+                <div class="error_msg" id="mail_fail">Greška. Pokušaje ponovo kasnije.</div>
+            </div>
+            <script src="./js/jquery-3.4.1.min.js"></script>
+            <script>
+                $(document).ready(function() {
+                    
+                    $('#form input').focus(function(){
+                        $(this).parent().css('border-color','#8ca5c6');
+                    });
+                    $('#form button').click(function(e){
+                        e.preventDefault();
+                        var error = false;
+                        var name = $('#name').val();
+                        var email = $('#email').val();
+                                
+                        if(name.length === 0){
+                            error = true;
+                            $('.name').css('border-color','#ffbaba');
+                        }else{
+                            $('.name').css('border-color','#8ca5c6');
+                        }
+                        if(email.length === 0 || email.indexOf('@') === '-1'){
+                            error = true;
+                            $('.mail').css('border-color','#ffbaba');
+                        }else{
+                            $('.mail').css('border-color','#8ca5c6');
+                        }
+                        if(error === false){
+                            $('#form button').prop('disabled', true);
+                            $.post('send_email.php', $('#form').serialize(),function(result){
+                                if(result=='send') {
+                                    $('#mail_fail').hide();
+                                    $('#mail_success').show();
+                                }else{
+                                    $('#mail_success').hide();
+                                    $('#mail_fail').show();
+                                }
+                            });
+                        }else{
+                            $('#form button').prop('disabled', false);
+                        }
+                    });
+                });
+            </script>    
+        </article>
+        <div class="footer">
+            <p>© Wake.up Zone. All rights reserved 2019</p>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

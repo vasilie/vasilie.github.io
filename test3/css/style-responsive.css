@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width: 649px) {
+    .nonMobile{display:none;}
+    .mobile{display:block;}
+    .toggleMenu{display:block;}
+    .flex{display:block;}
+    header .headerLogo{width: 40%; margin: 20px;}
+    header .headerMenu{display:none; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0,0.9); margin: 0; text-align: center; padding: 100px 0;}
+    header .headerMenu li{float:none;}
+    section#landing{height: auto; padding: 120px 0 0 0; margin:0 0 60px 0;}
+    section#landing .textHolder{width:90%; text-align: center; margin:0 auto 20px auto; float: none; display: block;}
+    section#landing .textHolder .title{font-size:36px;}
+    section#landing .textHolder .text{font-size:18px;}
+    section#landing .textHolder .storesHolder img{width:45%; margin:0 10% 0 0; opacity:1;}
+    section#landing .textHolder .storesHolder img:nth-child(2n){margin:0;}
+    section#landing .media{width: 90%; margin: 0 auto; display: block; float: none;}
+    section#discover{margin:0 0 60px 0;}
+    section#discover .title{font-size:14px;}
+    section#discover .text{font-size:18px;}
+    section#blockchain{overflow:hidden; margin:0 0 60px 0;}
+    section#blockchain .backTitle{font-size:calc(340vw/19.2);}
+    section#blockchain .yellowTitle{font-size:14px; margin:40px 0 30px 0;}
+    section#blockchain .title{font-size:34px; color:rgb(33,33,33);}
+    section#blockchain .text{font-size:16px;}
+    section#blockchain img{position: relative; top: auto; left: auto; transform: none; margin: 30px auto 0 auto;}
+    section#philosophy .mainTitle{font-size:34px; color:rgb(33,33,33); text-align:left; margin: 0 0 50px 0;}
+    section#philosophy .item, section#philosophy .item:nth-child(2n){width: 100%; margin: 0 0 10% 0; padding: 0 0 0 25%;}
+    section#philosophy .item.ownership, section#philosophy .item.privacy, section#philosophy .item.compensation, section#philosophy .item.trust{background-size:17%;}
+    section#philosophy .item:nth-last-child(n+3)::after{display:none;}
+    section#philosophy .item .title{color:rgb(33,33,33); font-size:20px; margin:0 0 5px 0;}
+    section#philosophy .item .text{font-size:16px;}
+    section#beWise{margin:50px 0;}
+    section#beWise::before{height:45px; top: -50px;}
+    section#beWise .circle{width: 150px; height: 150px;}
+    section#beWise .circle .text{font-size:18px;}
+    section#howItWorks{margin:0 0 60px 0;}
+    section#howItWorks .flex{display:flex; flex-direction:column;}
+    section#howItWorks .col-lg-10{order:2;}
+    section#howItWorks .col-lg-12{order:1;}
+    section#howItWorks .backTitle{font-size:calc(320vw/19.2); top: -34px; left: 0;}
+    section#howItWorks .content{position:relative; top:auto; transform:none;}
+    section#howItWorks .content .title{font-size:34px; color:rgb(33,33,33);}
+    section#howItWorks .content .yellowTitle{font-size:14px;}
+    section#howItWorks .content .text{font-size:16px;}
+    section#howItWorks .content .footnote{display:none;}
+    section#privacy{overflow:hidden; margin:0 0 60px 0;}
+    section#privacy .flex{display:flex; flex-direction:column; margin: 38px 0 0 0;}
+    section#privacy .backTitle{font-size:calc(320vw/19.2);}
+    section#privacy .content{position:relative; bottom:auto;}
+    section#privacy .content .title{font-size:34px; color:rgb(33,33,33);}
+    section#privacy .content .text{font-size:16px;}
+    section#privacy .content .footnote{display:none;}
+    section#privacy img{margin:0;}
+    section#trust{overflow:hidden; margin:0 0 60px 0;}
+    section#trust .flex{display:flex; flex-direction:column; margin: 38px 0 0 0;}
+    section#trust .col-lg-10{order:2;}
+    section#trust .col-lg-12{order:1;}
+    section#trust .content{position:relative; top:auto; transform:none;}
+    section#trust .backTitle{display:none;}
+    section#trust .content .yellowTitle{font-size:14px;}
+    section#trust .content .title{font-size:34px; color:rgb(33,33,33);}
+    section#trust .content .text{font-size:16px;}
+    section#tokens .container{display:flex; flex-direction:column;}
+    section#tokens .row:first-of-type{order:2;}
+    section#tokens .row:last-of-type{order:1;}
+    section#tokens img{margin:0 0 20px 0;}
+    section#tokens img.absolute{position:relative;}
+    section#tokens{overflow:hidden; margin:0 0 60px 0;}
+    section#tokens .backTitle{font-size:calc(320vw/19.2);}
+    section#tokens .yellowTitle{font-size:14px; margin: 30px 0;}
+    section#tokens .title{font-size:34px; color:rgb(33,33,33); margin:0 0 20px 0;}
+    section#tokens .text{font-size:16px;}
+    section#tokens .small{font-size:20px;}
+    section#tokens .circle{display:none;}
+    section#philanthropy{overflow:hidden; margin:0 0 60px 0; padding:0;}
+    section#philanthropy .flex{display:flex; flex-direction:column; margin: 38px 0 0 0;}
+    section#philanthropy .col-lg-10{order:2;}
+    section#philanthropy .col-lg-11{order:1;}
+    section#philanthropy .backTitle{font-size:calc(320vw/19.2); left:0; transform:none;}
+    section#philanthropy .content{position:relative; top:auto; transform:none;}
+    section#philanthropy .content .title{font-size:34px; color:rgb(33,33,33);}
+    section#philanthropy .content .text{font-size:16px;}
+    section#philanthropy img{margin:20px 0 0 0;}
+    section#lastUpdates{padding:60px 0; margin:0 0 60px 0;}
+    section#lastUpdates .title{font-size:34px; color:rgb(33,33,33);}
+    section#lastUpdates .text{font-size:16px;}
+    section#lastUpdates #newsletter{margin:40px 0 0 0;}
+    section#lastUpdates #newsletter button{width:35%;}
+    section#lastUpdates #newsletter input{padding:0 35% 0 0;}
+    section#lastUpdates #newsletter .agreeHolder label{margin:0 20px 30px 0;}
+    section#contact{padding:0 0 50px 0;}
+    section#contact .yellowTitle{font-size:14px;}
+    section#contact .title{font-size:34px; color:rgb(33,33,33);}
+    #contactForm .twoInRow .groupForm:nth-child(2n), #contactForm .twoInRow .groupForm{width:100%;}
+    section#contact .socialHolder{margin:50px 0 0 0;}
+}

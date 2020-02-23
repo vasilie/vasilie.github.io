@@ -1,0 +1,1375 @@
+@import "reset.css";
+body, html {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 33, 33);
+    overflow-x: hidden;
+}
+
+.landing {
+    height: 100vh;
+    background: url("../img/wave.svg") no-repeat, radial-gradient( rgb(6, 7, 75), rgb(15, 16, 81)) fixed;
+    background-size: auto 285px, cover;
+    padding-top: 20px;
+    padding-left: 193px;
+    padding-right: 173px;
+    color: rgb(255, 255, 255);
+}
+.overlay {
+    display: none;
+}
+div.mobile-menu {
+    display: none;
+}
+
+.header {
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 180px;
+}
+
+.navigation {
+    font-size: 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.logo-wrapper {
+    max-width: 168px;
+}
+
+.work-in-progress-container {
+    max-width: 550px;
+}
+
+.app-store, .play-store {
+    display: inline-block;
+    opacity: 0.4;
+    max-width: 150px;
+    max-height: 50px;
+}
+
+.play-store {
+    max-width: 167px;
+}
+
+.play-store {
+    margin-left: 25px;
+}
+
+.landing-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 32px;
+}
+
+.yellow {
+    color: rgb(251, 182, 57);
+}
+
+.landing-text {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 77px;
+    font-weight: 300;
+}
+
+.release-note {
+    font-size: 18px;
+    margin-bottom: 47px;
+    font-weight: 300;
+}
+
+.img-wrapper {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    max-width: 506px;
+    max-height: 724px;
+}
+
+img {
+    width: 100%;
+}
+
+textarea {
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    min-height: 27px;
+    max-height: 10em;
+    width: 100%;
+    padding: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Discover section */
+
+.discover {
+    text-align: center;
+    margin-top: 180px;
+}
+
+.discover-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(251, 182, 57);
+    margin-bottom: 36px;
+}
+
+.discover-info {
+    font-size: 22px;
+    max-width: 765px;
+    line-height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discover-info .blue {
+    color: rgb(20, 20, 197);
+}
+
+/* Philosophy section */
+
+.philosophy-heading {
+    color: rgb(2, 16, 99);
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.philosophy-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.philosophy-container {
+    display: grid;
+    grid-template-columns: 90px 370px 156px 90px 325px;
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+}
+
+.philosophy-icon-wrapper>img {
+    max-width: 70px;
+    max-height: 75px;
+}
+
+.philosophy-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(2, 16, 99);
+    margin-bottom: 16px;
+}
+
+.philosophy-info {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.border {
+    border-bottom: 2px solid rgb(2, 16, 99);
+    width: 27px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* Circle */
+
+.vertical-line {
+    content: '';
+    position: absolute;
+    left: 50%;
+    border-left: 1px solid rgb(215, 215, 215);
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.philosophy-circle {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    height: 160px;
+    width: 160px;
+    text-align: left;
+    background-image: url("../img/oval@3x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.circle>div {
+    margin-top: 52px;
+}
+
+/* How it works */
+
+#how-it-works {
+    margin-top: 100px;
+}
+
+#how-it-works .background-title {
+    margin-left: -200px;
+    overflow: hidden;
+}
+
+#how-it-works .description {
+    margin-top: -50px;
+}
+
+#how-it-works .section-image {
+    display: flex;
+    flex-direction: row;
+}
+
+#how-it-works .secondary {
+    margin-top: -30px;
+    margin-left: -140px;
+}
+
+/* How to earn */
+
+.how-to-earn {
+    margin-top: 100px;
+}
+
+.how-to-earn .description-wrapper {
+    margin-top: 250px;
+}
+
+.how-to-earn .section-image {
+    margin-top: -30px;
+}
+
+/* Trust */
+
+.trust {
+    margin-top: 100px;
+}
+
+.trust .section-image>img {
+    max-width: 609px;
+    max-height: 661px;
+}
+
+.trust .background-title {
+    margin-left: -180px;
+    margin-top: -70px;
+}
+
+.trust .description {
+    margin-top: 52px;
+}
+
+/* Tokens */
+
+.tokens {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.tokens-wrapper {
+    display: grid;
+    grid-template-columns: 300px auto auto;
+    grid-template-rows: 150px 420px;
+    grid-column-gap: 50px;
+}
+
+.tokens .background-title {
+    margin-left: -40px;
+    margin-top: 60px;
+}
+
+.status-image, .sport-image {
+    width: 307px;
+    max-height: 410px;
+}
+
+.posts-image {
+    width: 345px;
+    max-height: 715px;
+    margin-top: -150px;
+}
+
+.tokens .circle-wrapper {
+    position: relative;
+}
+
+.tokens .circle-wrapper>div {
+    z-index: -1;
+    position: absolute;
+    bottom: -50px;
+    left: 200px;
+}
+
+.tokens .circle {
+    width: 135px;
+    height: 135px;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+.tokens .circle>div {
+    margin-top: 40px;
+}
+
+/* Earn extra tokens */
+
+.extra-tokens {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.extra-tokens .description:first-child {
+    padding-right: 130px;
+}
+
+/* Blockchain */
+
+.blockchain .description>h4 {
+    margin-top: -45px;
+}
+
+.blockchain .description>h2 {
+    max-width: 600px;
+}
+
+.blockchain .description>div {
+    max-width: 600px;
+}
+
+.blockchain .section-image {
+    max-height: 400px;
+}
+
+.blockchain .section-image>img {
+    margin-top: 170px;
+    width: 307px;
+    height: 351px;
+}
+
+.back-to-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 57px;
+    margin-bottom: 96px;
+}
+
+.back-to-top p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.to-top-img-wrapper {
+    max-height: 34px;
+    max-width: 15px;
+    margin-bottom: 24px;
+}
+
+/* Latest updates */
+
+.latest-updates {
+    padding-top: 76px;
+    padding-bottom: 134px;
+    padding-left: 190px;
+    background-color: rgb(251, 251, 251);
+}
+
+.latest-updates .description, .latest-updates .mail-form {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.latest-updates .description {
+    padding-right: 150px;
+}
+
+.mail-label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.latest-updates input[type="email"] {
+    z-index: -1;
+    font-size: 16px;
+    width: 453px;
+    height: 42px;
+    padding-left: 10px;
+    padding-right: 142px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 4px;
+}
+
+.latest-updates input[type="submit"] {
+    margin-left: -143px;
+    height: 42px;
+    width: 142px;
+    background: rgb(29, 11, 115);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid rgb(29, 11, 115);
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+#mc-embedded-subscribe.disabled {
+    opacity: 0.4;
+}
+
+.latest-updates input[type="checkbox"] {
+    max-width: 450px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.latest-updates .checkbox-label {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: -25px;
+    margin-left: 30px;
+    max-width: 430px;
+}
+
+#js-subscribe-response {
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.failure {
+    color: rgb(255, 23, 68)
+}
+
+.checkbox-wrapper {
+    width: 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.checkbox-wrapper label {
+    cursor: pointer;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 11px;
+    left: 0;
+    background: rgb(251, 251, 251);
+    border: 2px solid rgb(152, 152, 152);
+    border-radius: 4px;
+}
+
+.checkbox-wrapper label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 7px;
+    background: transparent;
+    top: 0px;
+    left: 3px;
+    border: 3px solid rgb(251, 182, 57);
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+/**
+ * Create the hover event of the tick
+ */
+
+.checkbox-wrapper label:hover::after {
+    opacity: 0.5;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+
+.checkbox-wrapper input[type=checkbox]:checked+label:after {
+    opacity: 1;
+}
+
+#agreement {
+    margin-top: 18px;
+}
+
+/* Get in touch */
+
+#touch {
+    margin-top: 93px;
+    margin-bottom: 165px;
+    margin-left: 190px;
+}
+
+.latest-updates {
+    padding-top: 76px;
+    padding-bottom: 134px;
+    padding-left: 190px;
+    background-color: rgb(251, 251, 251);
+}
+
+#touch .description {
+    padding-right: 150px;
+}
+
+.contact-form {
+    width: 90%;
+}
+
+#touch .description, #touch .contact-form {
+    display: inline-block;
+}
+
+#touch .description {
+    vertical-align: top;
+}
+
+#touch .description>p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.info {
+    font-size: 20px;
+    max-width: 320px;
+}
+
+.firm {
+    margin-top: 52px;
+    font-weight: 700;
+}
+
+.follow {
+    margin-top: 170px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.follow-icons {
+    max-width: 300px;
+    margin-bottom: 80px;
+}
+
+.follow-icons div {
+    display: inline-block;
+    padding-right: .4em;
+}
+
+.follow-icons img {
+    width: 44px;
+    height: 44px;
+}
+
+.group {
+    position: relative;
+    margin-bottom: 92px;
+    border-bottom: 1px solid rgb(140, 165, 198);
+}
+
+.group.message {
+    margin-bottom: 47px;
+}
+
+.group.message>p {
+    font-size: 15px;
+    color: rgb(176, 176, 176);
+    margin-top: 10px;
+    margin-bottom: 85px;
+    margin-left: 3px;
+}
+
+.group.mail {
+    width: 48%;
+}
+
+.two-inputs-in-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-form input {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 87%;
+    margin-left: 4.1em;
+    margin-right: 1em;
+    border: none;
+}
+
+.group.message input {
+    word-break: break-word;
+    margin-left: 0;
+    margin-top: 85px;
+    width: 100%;
+}
+
+.contact-form label {
+    color: rgb(33, 33, 33);
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    pointer-events: none;
+    left: 3px;
+    top: 14px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.group.message label {
+    top: -18px;
+}
+
+.submit-btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-btn-wrapper button {
+    width: 142px;
+    height: 44px;
+    border: 1px solid rgb(252, 182, 57);
+    border-radius: 2px;
+    background-color: rgb(252, 182, 57);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+    position: relative;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    font-size: 15px;
+    padding: 20px 20px 20px 190px;
+}
+
+/* Modal*/
+
+.img-and-dscr-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.image-and-description {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 150px;
+}
+
+.background-title {
+    z-index: -1 !important;
+    font-size: 130px;
+    font-weight: 900;
+    color: rgb(33, 33, 33);
+    opacity: 0.03 !important;
+}
+
+.section-image {
+    max-width: 500px;
+    max-height: 640px;
+}
+
+.section-image .primary {
+    z-index: -1;
+    max-width: 325px;
+    max-height: 575px;
+}
+
+.section-image .secondary {
+    z-index: 1;
+    max-width: 323px;
+    max-height: 637px;
+}
+
+.description-wrapper {
+    margin-top: 80px;
+}
+
+.description {
+    text-align: left;
+}
+
+.description>h4 {
+    color: rgb(252, 182, 57);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+}
+
+.description>h2 {
+    color: rgb(2, 16, 99);
+    max-width: 334px;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 48px;
+}
+
+.description>p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.description>div {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 430px;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 2540px) {
+    /* .work-in-progress-container {
+        margin: 76px auto auto 684px;
+        max-width: 55%;
+    } */
+    .text-content {
+        max-width: 616px;
+    }
+    .landing-title {
+        font-size: 74px;
+        line-height: 80px;
+    }
+    .landing-text {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+/* tablet */
+
+@media only screen and (max-width: 1024px) {
+    .landing {
+        padding-left: 60px;
+        padding-right: 0;
+        padding-bottom: 60px;
+        height: auto;
+    }
+    .landing-title {
+        font-size: 50px;
+    }
+    .release-note {
+        font-size: 16px;
+    }
+    .navigation {
+        margin-top: 30px;
+    }
+    .navigation a {
+        padding: 10px;
+    }
+    .img-wrapper {
+        max-width: 360px;
+        left: 50%;
+    }
+    .app-store, .play-store {
+        max-width: 122px;
+        max-height: 41px;
+    }
+    .play-store {
+        max-width: 136px;
+    }
+    .work-in-progress-container {
+        max-width: 450px;
+    }
+    .philosophy-container {
+        grid-template-columns: 75px 300px 0px 75px 300px;
+    }
+    .tokens .circle-wrapper, .tokens .status-image {
+        display: none;
+    }
+    .background-title {
+        font-size: 100px;
+    }
+    .discover-info {
+        max-width: 75%;
+    }
+    #touch {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+    }
+    .image-and-description {
+        grid-column-gap: 50px;
+    }
+    .section-image {
+        max-width: 300px;
+    }
+    .section-image .primary {
+        max-width: 220px;
+        max-height: 415px;
+    }
+    .section-image .secondary {
+        max-width: 220px;
+        max-height: 460px;
+    }
+    .trust .background-title {
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .description-wrapper {
+        max-width: 350px;
+    }
+    .trust .description-wrapper {
+        margin-top: 0;
+    }
+    .trust .description {
+        margin-top: -40px;
+    }
+    .trust .description>div {
+        max-width: 320px;
+    }
+    .tokens-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tokens .tokens-wrapper div:nth-child(1) {
+        order: 2;
+    }
+    .tokens .tokens-wrapper div:nth-child(2) {
+        order: 1;
+    }
+    .tokens-wrapper .background-title {
+        margin-left: -420px;
+    }
+    .extra-tokens {
+        margin-top: -40px;
+    }
+    .extra-tokens .description:first-child {
+        padding-right: 0;
+        max-width: 300px;
+    }
+    .blockchain .section-image>img {
+        margin-left: 0px;
+        width: 246px;
+        height: 280px;
+    }
+    .latest-updates .description, #touch .description {
+        padding-right: 50px;
+    }
+    .latest-updates input[type="email"] {
+        width: 400px;
+    }
+    .mail-form {
+        max-width: 430px;
+    }
+    #how-it-works, .how-to-earn, .trust, .tokens {
+        margin-top: 120px;
+    }
+    #how-it-works .background-title {
+        margin-top: -185px;
+    }
+    .how-to-earn .description-wrapper {
+        margin-top: 80px;
+    }
+    .latest-updates {
+        padding-left: 60px;
+    }
+    .latest-updates .checkbox-label {
+        max-width: 380px;
+    }
+    #touch {
+        margin-left: 60px;
+    }
+    #touch .description>p {
+        margin-top: 18px
+    }
+    .footer {
+        padding: 20px;
+        text-align: center;
+    }
+    /* modal */
+    .img-and-dscr-wrapper {
+        margin-left: 40px;
+    }
+    .description>h4 {
+        font-size: 18px;
+    }
+    .description>h2 {
+        font-size: 38px;
+    }
+    .description>p {
+        font-size: 18px;
+    }
+    .description>div {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+/* Tablet portrait */
+
+@media only screen and (max-width: 1025px) and (orientation: portrait) {
+    .img-wrapper {
+        position: absolute;
+        left: auto;
+        top: 300px;
+        right: 20px;
+        max-width: 320px;
+    }
+    .work-in-progress-container {
+        max-width: 330px;
+    }
+    .philosophy-container {
+        grid-template-columns: 65px 280px 0px 65px 280px;
+    }
+    .latest-updates .description {
+        margin-bottom: 60px;
+    }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 767px) {
+    body .no-scroll {
+        overflow: hidden;;
+    }
+    [aria-hidden="true"] { display: none; }
+    [aria-hidden="false"] { display: block; }
+    body {
+        overflow: auto;
+    }
+    .overlay {
+        display: block;
+        position: fixed;
+        width: 100%;
+        min-height: 100%;
+        top: 0;
+        left: 0;
+        background: rgb(255, 255, 255);
+        z-index: 99999;
+        padding-left: 36px;
+    }
+    .overlay ul {
+        list-style: none;
+        margin-top: 120px;
+        font-size: 33px;
+        margin-bottom: 92px;
+    }
+    .overlay ul li a {
+        font-weight: 700;
+        color: rgb(2, 16, 99);
+        line-height: 56px;
+    }
+    .overlay-close {
+        position: absolute;
+        right: 24px;
+        top: 36px;
+        width: 16px;
+        height: 16px;
+    }
+    .overlay-data {
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    .overlay-open {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    .overlay-border {
+        margin-bottom: 20px;
+        border-bottom: 2px solid rgb(2, 16, 99);
+        width: 27px; 
+    }
+    .overlay .contact p {
+        font-size: 18px;
+        margin-bottom: 8px;
+        line-height: 1em;
+    }
+    .overlay .contact p:first-child {
+        font-weight: 700;
+    }
+    .overlay .contact p:last-child {
+        color: rgb(20, 20, 197);
+    }
+    .overlay .contact {
+        margin-bottom: 10px; 
+    }
+    /* Offset for tags on mobile (header height) */
+    #how-it-works:target, #philosophy, #touch:target {
+        padding-top: 95px;
+        margin-top: -95px; 
+        display: inline-block
+    }
+    /* Landing */
+    .landing {
+        height: auto;
+        background: url("../img/wave.svg") no-repeat, linear-gradient(to bottom, #06074B 0%, #06074B 70%, #06074B 70%, #F8F8F8 70%, #F8F8F8 100%) no-repeat;
+        background-size: auto 150px, cover;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+    .header {
+        display: none
+    }
+    .work-in-progress-container {
+        min-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #first {
+        order: 1;
+    }
+    #second {
+        order: 2;
+    }
+    #third {
+        order: 4;
+    }
+    #fourth {
+        order: 5;
+    }
+    #fifth {
+        order: 3;
+    }
+    .header {
+        margin-bottom: 33px;
+    }
+    div.mobile-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 24px;
+        transition: background-color 300ms ease;
+        transition: padding 300ms ease;
+    }
+    .menu-wrapper {
+        width: 20px;
+    }
+    .mobile-menu.sticky {
+        position: fixed;
+        top: 0;
+        z-index: 5;
+        background-color: rgb(6, 7, 75);
+        padding-bottom: 12px;
+    }
+    .landing.sticky {
+        padding-top: 78px;
+    }
+    .mobile-logo-wrapper {
+        max-width: 106px;
+        max-height: 42px;
+    }
+    .img-wrapper {
+        display: flex;
+        position: static;
+        max-width: 284px;
+        max-height: 424px;
+    }
+    .landing-title {
+        font-size: 36px;
+        line-height: 38px;
+        max-width: 290px;
+        margin-bottom: 24px;
+    }
+    .landing-text {
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 60%;
+    }
+    .release-note {
+        font-size: 15px;
+        color: rgb(33, 33, 33);
+        margin-top: 26px;
+        padding: 0;
+    }
+    /* Discover */
+    .discover {
+        text-align: center;
+        margin-top: 54px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .discover-title {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+    .discover-info {
+        font-size: 18px;
+        text-align: center;
+        line-height: 28px;
+        max-width: 330px;
+    }
+    /* Philosophy */
+    #philosophy {
+        margin-left: 20px;
+    }
+    .philosophy-heading {
+        font-size: 34px;
+        margin-bottom: 44px;
+        text-align: left;
+    }
+    .philosophy-container {
+        display: grid;
+        grid-template-columns: 55px 275px;
+        grid-template-rows: 100px 100px 100px 100px;
+        grid-column-gap: 10px;
+        grid-row-gap: 50px;
+    }
+    .border {
+        display: none;
+    }
+    .philosophy-icon-wrapper>img {
+        max-width: 50px;
+        max-height: 45px;
+    }
+    .philosophy-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .philosophy-info {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 250px;
+    }
+    /* don't need empty divs on mobile */
+    .philosophy-container>div:empty {
+        display: none;
+    }
+    /* Circle */
+    .vertical-line {
+        height: 45px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .philosophy-circle {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .circle {
+        height: 140px;
+        width: 140px;
+        font-size: 18px;
+    }
+    /* Modal*/
+    .image-and-description {
+        display: flex;
+        flex-direction: column;
+    }
+    .background-title {
+        font-size: 65px;
+    }
+    .section-image {
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-image .primary {
+        max-width: 200px;
+        max-height: 400px;
+    }
+    .section-image .secondary {
+        max-width: 200px;
+        max-height: 364px;
+    }
+    .blockchain .description>h4 {
+        margin-top: -30px;
+    }
+    #how-it-works .description>h4 {
+        margin-top: 20px;
+    }
+    .description>h2 {
+        max-width: 260px;
+        font-size: 34px;
+        line-height: 36px;
+    }
+    .description>div {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 330px;
+        font-weight: 100;
+        margin-bottom: 36px;
+    }
+    /* how it works */
+    #how-it-works .image-and-description, .trust .image-and-description {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #how-it-works .image-and-description div:nth-child(1), .trust .image-and-description div:nth-child(1) {
+        order: 2;
+    }
+    #how-it-works .image-and-description div:nth-child(2).trust .image-and-description div:nth-child(1) {
+        order: 1;
+    }
+    #how-it-works .background-title {
+        margin-left: 0;
+    }
+    #how-it-works, .how-to-earn, .trust {
+        margin-top: 80px;
+    }
+    /* how to earn  */
+    .how-to-earn .description-wrapper {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .trust .description {
+        margin-top: 0;
+    }
+    .trust .background-title {
+        display: none;
+    }
+    /* extra tokens */
+    .extra-tokens {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .extra-tokens .description>h4 {
+        margin-top: 10px;
+    }
+    .tokens-wrapper .background-title {
+        margin-left: -110px;
+    }
+    /* blockchain */
+    .blockchain .background-title {
+        margin-left: 20px;
+    }
+    .blockchain .section-image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blockchain .description>div {
+        max-width: 330px;
+    }
+    .back-to-top {
+        margin-top: 5px;
+        margin-bottom: 64px;
+    }
+    /* Latest updates */
+    .latest-updates {
+        padding-left: 20px;
+    }
+    .latest-updates input[type="email"] {
+        width: 310px;
+        padding-right: 100px;
+    }
+    .latest-updates input[type="submit"] {
+        margin-left: -110px;
+        width: 110px;
+    }
+    .checkbox-label {
+        max-width: 280px;
+    }
+    /* Touch */
+    #touch {
+        margin-left: 20px;
+    }
+    .two-inputs-in-line {
+        flex-direction: column;
+    }
+    .group.message>p {
+        margin-top: 10px;
+        margin-bottom: 24px;
+    }
+    .group.name, .group.message, .group.mail {
+        width: 100%;
+        margin-bottom: 64px;
+    }
+    .contact-form input {
+        max-width: 72%;
+    }
+}
+
+/* small mobile */
+
+@media only screen and (max-width: 330px) {
+    .philosophy-container {
+        grid-template-columns: 45px 250px;
+    }
+    .section-image, .description-wrapper {
+        max-width: 250px;
+    }
+    .latest-updates input[type="email"] {
+        width: 180px;
+    }
+    .follow-icons {
+        width: 320px;
+    }
+}
+
+/* mobile landscape */
+
+@media screen and (min-width:320px) and (max-width:900px) and (orientation:landscape) {
+    .overlay ul {
+        margin-top: 60px;
+        padding-right: 80px; 
+    }
+    .overlay {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        justify-content: left;
+    }
+    .overlay .contact-wrapper{
+        margin-top: 60vh;
+    }
+    .overlay-border {
+        display: none;
+    }
+    #philosophy {
+        width: 100%;
+    }
+    .vertical-line {
+        margin-left: 20px;
+    }
+    .mail-form {
+        margin-top: 80px;
+    }
+    .two-inputs-in-line {
+        width: 100%;
+    }
+}

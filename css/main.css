@@ -1,0 +1,2351 @@
+
+
+@import "reset.css";
+body, html {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 33, 33);
+    overflow-x: hidden;
+}
+
+.landing {
+    height: 74.1vw;
+    max-height: 877px;
+    background: url("../img/wave.svg") no-repeat, radial-gradient( rgb(6, 7, 75), rgb(15, 16, 81)) fixed;
+    background-size: auto 285px, cover;
+    padding-top: 1.3%;
+    color: rgb(255, 255, 255);
+}
+.overlay {
+    display: none;
+}
+div.mobile-menu {
+    display: none;
+}
+
+.header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21.1%;
+    /* margin-bottom: 9.1%; */
+}
+.desk-info {
+    display: block;
+}
+.mob-info {
+    display: none;
+}
+.navigation {
+    font-size: 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 31px 21px;
+    display: inline-block;
+    letter-spacing: 0.3px;
+}
+
+.navigation a:last-child {
+    padding-right: 0;
+}
+
+.container {
+    display: block;
+    max-width: 1154px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.logo-wrapper {
+    max-width: 155px;
+    width: 100%;
+}
+
+.work-in-progress-container {
+    display: block;
+    position: relative;
+}
+
+.work-in-progress-container .wrapper--left{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fifth {
+    width: 47.9%;
+    display: inline-block;
+    right: -0.2%;
+    top: -21%;
+    position: absolute;
+}
+
+.app-store, .play-store {
+    display: inline-block;
+    opacity: 0.4;
+    max-width: 150px;
+    max-height: 50px;
+}
+
+.play-store {
+    max-width: 167px;
+}
+
+.play-store {
+    margin-left: 25px;
+}
+
+.landing-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 3%;
+    max-width: 527px;
+    width: 50%;
+}
+
+.yellow {
+    color: rgb(251, 182, 57);
+}
+
+.landing-text {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 7.6%;
+    font-weight: 300;
+    max-width: 398px;
+    letter-spacing: 0.2px;
+}
+
+.release-note {
+    font-size: 18px;
+    margin-bottom: 47px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+
+.blockchain-mob {
+    display: none;
+}
+.img-wrapper {
+    position: relative;
+    /* top: -80%; */
+    left: 4.4%;
+    margin-top: -8.2%;
+    max-width: 499px;
+    max-height: 724px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+    float: left;
+}
+
+textarea {
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    min-height: 27px;
+    max-height: 10em;
+    width: 100%;
+    padding: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+article div.notice {
+    font-size: 14px !important;
+    line-height: 18px;
+    letter-spacing: 0;
+    padding-top: 30px;
+}
+/* Discover section */
+
+.discover {
+    text-align: center;
+    margin-top: 6.1%;
+}
+
+.discover-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(251, 182, 57);
+    margin-bottom: 36px;
+    letter-spacing: 1.3px;
+}
+
+.discover-info {
+    font-size: 22px;
+    max-width: 765px;
+    line-height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+
+.discover-info .blue {
+    color: rgb(20, 20, 197);
+}
+
+/* Philosophy section */
+
+.philosophy-heading {
+    color: rgb(2, 16, 99);
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 8.7%;
+    text-align: center;
+}
+
+.philosophy-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 1285px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.philosophy-container {
+    display: grid;
+    grid-template-columns: 11.6% 36% 9.5% 90px 31%;
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+    max-width: 1055px;
+    width: 100%;
+}
+
+.philosophy-icon-wrapper>img {
+    max-width: 95px;
+    /* max-height: 75px; */
+    width: 100%;
+    margin-left: 8px;
+}
+.philosophy-icon-wrapper.key img{width: 60px;width: 100%;max-width: 64px;margin-left: 9px;/* margin-top: -14px; */}
+.philosophy-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(2, 16, 99);
+    margin-bottom: 16px;
+}
+
+.philosophy-icon-wrapper.trust-icon img {
+    margin-left: -22px;
+    margin-top: -4px;
+}
+
+.philosophy-info {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.border {
+    border-bottom: 2px solid rgb(2, 16, 99);
+    width: 27px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* Circle */
+
+.vertical-line {
+    content: '';
+    position: absolute;
+    left: 50%;
+    border-left: 1px solid rgb(215, 215, 215);
+    height: 80px;
+    margin-top: 71px;
+    margin-bottom: 10px;
+}
+
+.philosophy-circle {
+    margin-top: 11.3%;
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    height: 176px;
+    width: 176px;
+    text-align: left;
+    background-image: url("../img/oval@3x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.circle>div {
+    margin-top: 52px;
+    margin-left: 5px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+/* How it works */
+.asterix {
+    font-size: 25px;
+    position: relative;
+    top: -16px;
+    left: 4px;
+}
+
+#how-it-works {
+    margin-top: 100px;
+}
+
+#how-it-works .description h2 {
+    width: 111%;
+    font-size: 31.4px;
+    margin-bottom: 16px;
+}
+#how-it-works .description h2 {
+    width: 111%;
+    font-size: 45.4px;
+    margin-bottom: 16px;
+}
+
+#how-it-works .background-title {
+    margin-left: -200px;
+    margin-top: -13px;
+    overflow: hidden;
+    width: 640px;
+}
+
+#how-it-works .description {
+    margin-top: -50px;
+    max-width: 450px;
+}
+#how-it-works .description h4{
+    font-size: 16px;
+}
+#how-it-works .description-wrapper {
+    margin-top: -11%;
+    margin-left: 12%;
+}
+#how-it-works .image-and-description {
+    grid-template-columns:43% 34.4%;
+    margin-top: 4%;
+    /* grid-column-gap: 1%; */
+    /* justify-content: center; */
+}
+.description.discription--first {
+    width: 40%;
+    padding-left: 12.4%;
+    max-width: none;
+}
+.description.discription--second {
+    width: 48%;
+    justify-self: right;
+    justify-content: right;
+    padding-left: 6.7%;
+    padding-top: 2.1%;
+    max-width: none;
+}
+#how-it-works .section-image {
+    display: flex;
+    flex-direction: row;
+    margin-left: -2.7%;
+}
+
+#how-it-works .secondary {
+    margin-top: -30px;
+    margin-left: -151px;
+}
+
+/* How to earn */
+
+.how-to-earn {
+    margin-top: 100px;
+}
+.how-to-earn {
+    margin-top: 100px;
+}
+.how-to-earn .image-and-description{
+    margin-top:0;
+    grid-template-columns: 32% 34%;
+    grid-column-gap: 8.5%;
+}
+.how-to-earn .description-wrapper {
+    margin-top: 65%;
+}
+
+.how-to-earn .section-image {
+    margin-top: -30px;
+}
+
+/* Trust */
+
+.trust {
+    margin-top: 100px;
+}
+.trust .image-and-description {
+    margin-top: 100px;
+}
+.trust .section-image {
+    max-width: 660px;
+    max-height: 640px;
+    width: 106%;
+}
+.trust .description-wrapper {
+    margin-left: 12%;
+    margin-top: -8%;
+}
+.trust .section-image>img {
+    max-width: 659px;
+    margin-left: -40px;
+    max-height: 661px;
+}
+
+.trust .background-title {
+    margin-left: -180px;
+    margin-top: -70px;
+}
+
+.trust .description {
+    margin-top: 52px;
+}
+
+/* Tokens */
+
+.tokens {
+    /* margin: 0 auto; */
+    margin-top: 189px;
+    /* display: flex; */
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.tokens-wrapper {
+    display: grid;
+    grid-template-columns: 30% 31.7% auto;
+    /* grid-template-rows: 40px; */
+    grid-column-gap: 3.6%;
+    max-width: 1192px;
+    width: 100%;
+    margin-bottom: 21px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.tokens .background-title {
+    margin-left: -40px;
+    margin-top: 60px;
+}
+
+.status-image, .sport-image {
+    width: 100%;
+    max-height: 410px;
+    justify-self: left;
+}
+
+.posts-image {
+    width: 111%;
+    max-height: 635px;
+    margin-top: -164px;
+    margin-left: -9px;
+}
+
+.tokens .circle-wrapper {
+    position: relative;
+}
+
+.tokens .circle-wrapper>div {
+    z-index: -1;
+    position: absolute;
+    bottom: -46px;
+    left: 241px;
+}
+
+.tokens .circle {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+.tokens .circle>div {
+    margin-top: 40px;
+}
+
+/* Philanthropy */
+section#philanthropy{margin: 0 0 5.9% 0;position:relative;padding: 89px 0 0 0;font-weight: 300;}
+section#philanthropy .backTitle{font-size: 120px;font-weight: 900;color: #f9f9f9;left: -54%;position: relative;transform: );top: 11px;/* margin-left: -40%; */}
+section#philanthropy img{
+
+}
+section#philanthropy .content .yellowTitle{text-transform:uppercase;font-size:16px;margin: 0 0 4.1% 0;;font-weight:500;}
+section#philanthropy .content .title{font-weight:700;font-size:46px;line-height:1;color:rgb(2,16,99);margin-bottom: 5.9%;}
+section#philanthropy .content .small{font-size:20px;line-height:1.4;color:rgb(33,33,33);font-weight:400;margin-bottom: 4%;}
+section#philanthropy .content .text{font-size:18px;line-height: 27px;color:rgb(33,33,33);}
+#philanthropy .content {
+    /* max-width: 463px; */
+    width: 43%;
+    position: relative;
+    right: -5%;
+    /* width: auto; */
+}
+#philanthropy .container {
+    padding: 0 38px;
+}
+.philanthropy__img {
+    width: 48.8%;
+    height: auto;
+    display: block;
+    /* margin-left: 1%; */
+    margin-right: 9%;
+    margin-top: 16.3%;
+}
+.flex {
+    display: flex;
+}
+.row {
+    flex-flow: row;
+}
+.column {
+    flex-direction: column;
+}
+
+/* Earn extra tokens */
+
+.extra-tokens {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    max-width: 1385px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.extra-tokens .description:first-child {
+    padding-right: 0%;
+}
+
+/* Blockchain */
+.blockchain .description {
+   max-width: 897px;
+}
+
+.blockchain .description>h4 {
+    margin-top: -45px;
+}
+
+.blockchain .description>h2 {
+    max-width: 600px;
+    font-size: 46.3px;
+}
+
+.blockchain .description>div {
+    width: 101%;
+}
+
+.blockchain .section-image {
+    max-height: 400px;
+    text-align: center;
+}
+
+.back-to-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 57px;
+    margin-bottom: 96px;
+}
+
+.back-to-top p {
+    font-size: 15px;
+    font-weight: 500;
+}
+.blockchain {
+    margin-bottom: 9.7%;
+}
+.blockchain .section-image>img {
+    margin-left: 31%;
+    width: 216px;
+    margin-top: 28%;
+}
+.blockchain .image-and-description {
+    grid-template-columns: 43% 32%;
+    margin-top: 10.3%;
+}
+.to-top-img-wrapper {
+    max-height: 34px;
+    max-width: 15px;
+    margin-bottom: 24px;
+}
+
+/* Latest updates */
+
+
+.latest-updates .description h2 {
+    font-size: 46px;
+}
+.latest-updates__list {
+    margin-bottom: 16px;
+}
+
+.latest-updates__list li {
+    margin-left: 28px;
+    line-height: 32px;
+    font-size:20px;
+    position: relative;
+}
+.latest-updates__list li:before {
+    position: absolute;
+    left:-20px;
+    content: "•";
+    color: rgb(252, 182, 57);
+}
+
+.latest-updates .description, .latest-updates .mail-form {
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+}
+.latest-updates .mail-form {
+    margin-top: 92px;
+    padding-left: 12%;
+    width: 50%;
+    min-width: 600px;
+}
+.latest-updates .description {
+    padding-right: 63px;
+    width: 50%;
+    /* display: flex; */
+}
+
+.mail-label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.latest-updates input[type="email"] {
+    z-index: -1;
+    font-size: 16px;
+    width: 453px;
+    height: 42px;
+    padding-left: 10px;
+    padding-right: 142px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 4px;
+}
+
+.latest-updates input[type="submit"] {
+    margin-left: -143px;
+    height: 42px;
+    width: 142px;
+    background:#1d0b73;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid rgb(29, 11, 115);
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+#mc-embedded-subscribe.disabled {
+    opacity: 0.4;
+}
+
+.latest-updates input[type="checkbox"] {
+    max-width: 450px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.latest-updates .checkbox-label {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: -25px;
+    margin-left: 30px;
+    max-width: 430px;
+}
+
+#js-subscribe-response {
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.failure {
+    color: rgb(255, 23, 68)
+}
+
+.checkbox-wrapper {
+    width: 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.checkbox-wrapper label {
+    cursor: pointer;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 11px;
+    left: 0;
+    background: rgb(251, 251, 251);
+    border: 2px solid rgb(152, 152, 152);
+    border-radius: 4px;
+}
+
+.checkbox-wrapper label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 7px;
+    background: transparent;
+    top: 0px;
+    left: 3px;
+    border: 3px solid rgb(251, 182, 57);
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+/**
+ * Create the hover event of the tick
+ */
+
+.checkbox-wrapper label:hover::after {
+    opacity: 0.5;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+
+.checkbox-wrapper input[type=checkbox]:checked+label:after {
+    opacity: 1;
+}
+
+#agreement {
+    margin-top: 18px;
+}
+
+/* Get in touch */
+
+#touch {
+    margin-top: 93px;
+    margin-bottom: 81px;
+}
+
+.latest-updates {
+    padding-top: 76px;
+    padding-bottom: 134px;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+}
+
+#mail_fail,#mail_success{display:none;padding:15px 0;margin:20px 0 0 0;float:right;font-size:13px;line-height:12px;border-radius:4px; width:100%; text-align:center;}
+#mail_success{color:#044406;background-color:#B7FBB9}
+#mail_fail{color:#D8000C;background-color:#FFBABA}
+
+#touch .description {
+    padding-right: 114px;
+    width: 40%;
+}
+
+.contact-form {
+    width: 58%;
+    margin-top: 6.8%;
+}
+
+#touch .description, #touch .contact-form {
+    display: inline-block;
+}
+
+#touch .description {
+    vertical-align: top;
+}
+
+#touch .description>p {
+    font-size: 19.9px;
+    margin-bottom: 5px;
+}
+
+.info {
+    font-size: 20px;
+    max-width: 320px;
+}
+
+.firm {
+    margin-top: 52px;
+    font-weight: 700;
+    font-size: 17.9px !important;
+}
+
+.firm-no-margin {
+    margin-top: -4px;
+}
+.follow {
+    margin-top: 170px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.follow-icons {
+    max-width: 300px;
+    margin-bottom: 80px;
+}
+
+.follow-icons div {
+    display: inline-block;
+    padding-right: .4em;
+}
+
+.follow-icons img {
+    width: 44px;
+    height: 44px;
+}
+
+.group {
+    position: relative;
+    margin-bottom: 87px;
+    border-bottom: 1px solid rgb(140, 165, 198);
+}
+
+.group.message {
+    margin-bottom: 32px;
+}
+
+.group.message>p {
+    font-size: 15px;
+    color: rgb(176, 176, 176);
+    margin-top: 10px;
+    margin-bottom: 55px;
+    margin-left: 3px;
+}
+
+.group.mail, .group.company {
+    width: 48%;
+}
+
+.two-inputs-in-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-form input {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 87%;
+    margin-left: 4.1em;
+    margin-right: 1em;
+    border: none;
+}
+
+.group.message input {
+    word-break: break-word;
+    margin-left: 0;
+    margin-top: 85px;
+    width: 100%;
+}
+
+.contact-form label {
+    color: rgb(33, 33, 33);
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    pointer-events: none;
+    left: 3px;
+    top: 14px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.group.message label {
+    top: -18px;
+}
+
+.submit-btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-btn-wrapper button {
+    width: 142px;
+    height: 44px;
+    border: 1px solid rgb(252, 182, 57);
+    border-radius: 2px;
+    background-color: rgb(252, 182, 57);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+/* footer */
+
+.footer {
+    position: relative;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    font-size: 15px;
+    padding: 20px 20px 20px 190px;
+}
+.footer-container {
+    width: 100%;
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+/* Modal*/
+
+.img-and-dscr-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.image-and-description {
+    display: grid;
+    grid-template-columns: 43% 32%;
+    order: 2;
+    /* grid-template-rows: 10% 40% 30%; */
+    grid-column-gap: 1%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1385px;
+    margin-top: 10.7%;
+}
+
+.background-title {
+    z-index: -1 !important;
+    font-size: 130px;
+    font-weight: 900;
+    color: rgb(33, 33, 33);
+    opacity: 0.03 !important;
+    text-align: right;
+    margin: 0 200px 0px 0;
+    position: relative;
+    bottom: -7px;
+}
+
+.section-image {
+    max-width: 500px;
+    max-height: 640px;
+}
+
+.section-image .primary {
+    z-index: -1;
+    max-width: 525px;
+    max-height: 575px;
+    /* width: 100%; */
+    margin-top: 7px;
+}
+
+.section-image .secondary {
+    z-index: 1;
+    max-width: 323px;
+    max-height: 637px;
+}
+
+.description-wrapper {
+    margin-top: 0;
+}
+
+.description {
+    text-align: left;
+    max-width: 450px;
+}
+
+.description>h4 {
+    color: rgb(252, 182, 57);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 13px;
+    letter-spacing: 1px;
+    
+}
+
+.description>h2 {
+    color: rgb(2, 16, 99);
+    max-width: 456px;
+    font-size: 45.4px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 48px;
+}
+
+.description>p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.description>div {
+    font-size: 18px;
+    line-height: 30px;
+    /* max-width: 430px; */
+    font-weight: 300;
+}
+
+.text-small {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+.help-and-support .logo {
+    width: 100px;
+}
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+#basic-operation {
+    padding-top: 40px;
+
+}
+.help-and-support .banner-text {
+    color: rgb(252, 182, 57);
+    letter-spacing: 1.07px;
+    font-size: 16px;
+    font-family: "Roboto-Medium", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.help-and-support b {
+    font-family: "Roboto-Medium", sans-serif;
+}
+.help-and-support .notice {
+    font-size: 14px !important;
+    line-height: 18px;
+    letter-spacing: 0;
+}
+.help-and-support .header {
+    background-color: rgb(15, 16, 81);
+    margin-bottom: 64px;
+    height: 70px;
+}
+.help-and-support .container {
+    width: 100%;
+
+}
+.help-and-support .header .container{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    
+}
+.help-and-support .header .logo-wrapper,
+.help-and-support .header .navigation{
+    display: flex;
+    align-items: center;
+}
+.help-and-support .header .navigation{
+    margin-left: auto;
+}
+.help-and-support h1 {
+    font-size: 46px;
+    letter-spacing: 0;
+    color: rgb(2 16 99);
+    font-family: 'Roboto-Bold', sans-serif;
+    margin-bottom: 32px;
+}
+.help-and-support h2 {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: rgb(2 16 99);
+    padding-top: 32px;
+}
+.help-and-support h3 {
+    font-family: 'Roboto-Medium', sans-serif;
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: rgb(2 16 99);
+    line-height: 30px;
+    padding-top: 32px;
+}
+.help-and-support p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-family: 'Roboto-Light', sans-serif;
+    color: #333;
+    margin-bottom: ;
+}
+.help-and-support > div p {
+    margin-bottom: 19px;
+}
+.help-and-support > div p a {
+    color: rgb(2 16 99);
+    text-decoration: underline;
+}
+.help-and-support i {
+    font-size:18px;
+    font-style: italic;
+    margin-bottom: 16px;
+    display: block;
+}
+.help-and-support ul li {
+    line-height: 32px;
+    color: #333;
+    text-decoration: underline;
+}
+.help-and-support ol {
+    list-style-type: decimal;
+}
+.help-and-support ol li {
+    margin-left: 19px;
+}
+.help-and-support ol li p {
+    line-height: 32px;
+    color: #333;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.help-and-support .footer {
+    margin-top: 61px;
+}
+
+@media screen and (min-width: 1930px) {
+    .landing {
+        background-size:  contain;
+    }
+}
+@media screen and (min-width: 2540px) {
+    /* .work-in-progress-container {
+        margin: 76px auto auto 684px;
+        max-width: 55%;
+    } */
+
+    .text-content {
+        max-width: 616px;
+    }
+
+    .landing-text {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+/* tablet */
+
+@media only screen and (max-width: 1024px) {
+    .image-and-description {
+        display: grid;
+        grid-template-columns: 43% 32%;
+        order: 2;
+        /* grid-template-rows: 10% 40% 30%; */
+        grid-column-gap: 1%;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1385px;
+        margin-top: 10.7%;
+    }
+    .landing {
+        height: auto;
+        padding-top: 2.5%;
+    }
+    .landing-title {
+        font-size: 50px;
+        width: 52%;
+    }
+    .release-note {
+        font-size: 16px;
+    }
+    .navigation {
+        /* margin-top: 30px; */
+    }
+    .navigation a {
+        padding: 10px;
+    }
+    .img-wrapper {
+        max-width: 360px;
+        left: 50%;
+    }
+    .work-in-progress-container .wrapper--left{
+        padding-bottom: 8%;
+        
+    }
+    
+    .fifth {
+        top:auto;
+        bottom: -7%;
+    }
+    .app-store, .play-store {
+        max-width: 122px;
+        max-height: 41px;
+    }
+    .play-store {
+        max-width: 136px;
+    }
+    .philosophy-container {
+        grid-template-columns: 11.6% 36% 2.5% 90px 31%;
+        grid-column-gap: 12px;
+    }
+    .philosophy-icon-wrapper>img {
+        max-width: 63px;
+    }
+    .philosophy-icon-wrapper.key img {
+        max-width: 45px;
+        margin-left: 37px;
+    }
+    .tokens .circle-wrapper, .tokens .status-image {
+        /* display: none; */
+        left: -80px;
+    }
+    .background-title {
+        font-size: 100px;
+    }
+    .discover-info {
+        max-width: 75%;
+    }
+    #touch {
+        margin-left: auto;
+        margin-right: auto;
+        /* max-width: 800px; */
+        padding-right: 60px;
+    }
+    .image-and-description {
+        grid-column-gap: 50px;
+    }
+    .section-image {
+        max-width: 300px;
+    }
+    .section-image .primary {
+        max-width: 220px;
+        max-height: 415px;
+    }
+    .section-image .secondary {
+        max-width: 220px;
+        max-height: 460px;
+    }
+    .trust .background-title {
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .description-wrapper {
+        max-width: 350px;
+    }
+    .trust .description-wrapper {
+        margin-top: 0;
+    }
+    .trust .description {
+        margin-top: -40px;
+    }
+    .trust .description>div {
+        max-width: 320px;
+    }
+    .extra-tokens {
+        margin-top: 40px;
+    }
+    .extra-tokens .description:first-child {
+        padding-right: 0;
+        max-width: 402px;
+    }
+    .latest-updates .description, #touch .description {
+        padding-right: 50px;
+    }
+    .latest-updates input[type="email"] {
+        width: 379px;
+    }
+    .mail-form {
+        max-width: 430px;
+    }
+    #how-it-works, .how-to-earn, .trust, .tokens {
+        margin-top: 100px;
+    }
+    #how-it-works .background-title {
+        margin-top: -185px;
+    }
+    #how-it-works .image-and-description {
+        grid-column-gap: 0;
+        grid-template-columns: 40% 34.4%;
+    }
+    .how-to-earn .description-wrapper {
+        margin-top: 80px;
+    }
+    .latest-updates {
+        padding-left: 6%;
+    }
+    .latest-updates .checkbox-label {
+        max-width: 290px;
+    }
+    .latest-updates .description {
+        width: 68%;
+    }
+    #touch {
+        margin-left: 6%;
+    }
+    #touch .description>p {
+        /* margin-top: 18px; */
+    }
+    .footer {
+        padding: 20px;
+        text-align: center;
+    }
+    .footer-container {
+        padding:0;
+    }
+    .footer-container--bottom {
+        display: block;
+    }
+    /* modal */
+    .img-and-dscr-wrapper {
+        margin-left: -15px;
+    }
+    .description>h4 {
+        font-size: 18px;
+    }
+    .description>h2 {
+        font-size: 38px;
+        width: 130%;
+    }
+    .description>div {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .philosophy-icon-wrapper.trust-icon img {
+        margin-left: 16px;
+        margin-top: -4px;
+    }
+    .philanthropy__img {
+        margin-right: 3%;
+        margin-top: 18.3%;
+    }
+    #philanthropy .container {
+        padding: 0 6%;
+    }
+    #how-it-works .description-wrapper {
+        margin-top: 29%;
+        margin-left: 12%;
+    }
+    section#philanthropy .content .text {
+        font-size: 16px;
+    }
+}
+
+/* Tablet portrait */
+
+@media only screen and (max-width: 1023px) and (orientation: portrait) {
+    #touch .description {
+        max-width: 320px;
+    }
+    .tokens {
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 1025px) and (orientation: portrait) {
+    .img-wrapper {
+        position: absolute;
+        left: auto;
+        top: 300px;
+        right: 20px;
+        max-width: 320px;
+    }
+    .philosophy-container {
+        /* grid-template-columns: 65px 280px 0px 65px 280px; */
+    }
+    .latest-updates .description {
+        margin-bottom: 60px;
+        max-width: none;
+        padding-right: 0;
+        min-width: 280px;
+    }
+    .latest-updates .mail-form {
+        min-width: 460px;
+        margin-right: 7%;
+        margin-left: -2%;
+        /* margin-top: 21%; */
+    }
+    .latest-updates input[type="email"] {
+        width: 319px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .landing-text {
+        max-width: 300px;
+    }
+    .work-in-progress-container .wrapper--left {
+        padding-bottom: 4%;
+    }
+    .header {
+        margin-bottom: 18.1%;   
+    }
+    .tokens .circle-wrapper>div {
+        left: 161px;
+    }
+    .description.discription--first {
+        width: 40%;
+        padding-left: 8.4%;
+        max-width: none;
+    }
+    .latest-updates {
+        padding-bottom: 44px;
+    }
+    #touch .description {
+        width: 100%;
+    }
+    .description.discription--second {
+        width: 53%;
+        justify-self: right;
+        justify-content: right;
+        padding-left: 13%;
+        padding-top: 2.4%;
+        max-width: none;
+    }
+    .tokens-wrapper {
+        padding: 0 50px;
+    }
+    .extra-tokens {
+        padding-top: 6%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .desk-info .firm {
+        display: none;
+    }
+    .mob-info {
+        display: block;
+    }
+    .mob-info .follow {
+        margin-top: 60px;
+    }
+    .mob-info .firm-no-margin {
+        margin-top:6px;
+    }
+    .desk-info .follow,
+    .desk-info .follow-icons {
+        display: none;
+    }
+    .contact-form {
+        margin-top: 9.8%;
+    }
+    section#philanthropy .content .title{ 
+        font-size: 38px;
+    }
+    .trust .image-and-description {
+        margin-top: 50px;
+    }
+    #how-it-works .image-and-description {
+        grid-template-columns: 37% 39.4%;
+        grid-column-gap: 5%;
+    }
+    #how-it-works .description  {
+        margin-top: 60px;
+    }
+    #how-it-works .description h2 {
+        width: 120%;
+    }
+    #how-it-works .description-wrapper {
+        margin-left: 5%;
+        margin-top:-11%;
+    }
+    .how-to-earn .image-and-description {
+        grid-column-gap: 13.5%;
+    }
+    #philanthropy .container {
+        padding: 0 5% 0 8%;
+    }
+    section#philanthropy .backTitle {
+        top: -14px;
+    }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    body .no-scroll {
+        overflow: hidden;
+    }
+    [aria-hidden="true"] { display: none; }
+    [aria-hidden="false"] { display: block; }
+    body {
+        overflow: auto;
+        overflow-x: hidden;
+    }
+    .help-and-support .container {
+        width: 100%;
+        padding: 0 5%;   
+    }
+    #login, #logout {
+        padding-top: 85px
+    }
+    .help-and-support h1 {
+        font-size: 39px;
+    }
+    .help-and-support .overlay li {
+        text-decoration: none;
+    }
+  
+    #mobile-menu {
+        padding-top: 12px;
+    }
+    .help-and-support .overlay .contact p:last-child a{
+        color: rgb(20, 20, 197);
+        text-decoration: none;
+    }
+    .help-and-support .anchor {
+        margin-top: -60px;
+        padding-top: 60px;
+    }
+    .help-and-support {
+        padding-top: 110px;
+    }
+    .help-and-support .header{
+        padding-top: 12px;
+    }
+    .desk-info {
+        display: none;
+    }
+    .mob-info {
+        display: block;
+    }
+    .mob-info .firm {
+        margin-top: 22px;
+        margin-bottom: 15px;
+    }
+    
+    .mob-info .follow {
+        margin-top: 36px;
+    }
+    .mob-info .firm-no-margin {
+        margin-top:-4px;
+    }
+    #touch {
+        margin-bottom: 9%;
+    }
+    .circle>div {
+        margin-top: 40px;
+        margin-left: 5px;
+        font-size: 22px;
+        line-height: 23px;
+        font-size: 18px;
+    }
+    .blockchain {
+        margin-bottom: 0;:P
+    }
+    .container {
+        padding: 0;
+    }
+    .work-in-progress-container .wrapper--left {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+    .overlay {
+        display: block;
+        position: fixed;
+        width: 100%;
+        min-height: 100%;
+        top: 0;
+        left: 0;
+        background: rgb(255, 255, 255);
+        z-index: 99999;
+        padding-left: 36px;
+    }
+    .overlay ul {
+        list-style: none;
+        margin-top: 120px;
+        font-size: 33px;
+        margin-bottom: 92px;
+    }
+    .overlay ul li a {
+        font-weight: 700;
+        color: rgb(2, 16, 99);
+        line-height: 56px;
+    }
+    .overlay-close {
+        position: absolute;
+        right: 26px;
+        top: 36px;
+        width: 16px;
+        height: 16px;
+    }
+    .overlay-data {
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    .overlay-open {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    .overlay-border {
+        margin-bottom: 20px;
+        border-bottom: 2px solid rgb(2, 16, 99);
+        width: 27px; 
+    }
+    .overlay .contact p {
+        font-size: 18px;
+        margin-bottom: 8px;
+        line-height: 1em;
+    }
+    .overlay .contact p:first-child {
+        font-weight: 700;
+    }
+    .overlay .contact p:last-child {
+        color: rgb(20, 20, 197);
+    }
+    .overlay .contact {
+        margin-bottom: 10px; 
+    }
+    .mobile-swap {
+        display: flex;
+        flex-direction: column;
+    }
+    article div.notice {
+        padding-top: 0px;
+    }
+    .extra-tokens {
+        margin-top: 26% !important;
+    }
+  
+    /* Offset for tags on mobile (header height) */
+    #how-it-works:target, #philosophy, #touch:target {
+        padding-top: 95px;
+        margin-top: -95px; 
+        display: inline-block
+    }
+    #how-it-works .description-wrapper {
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 100%;
+        max-width: none;
+    }
+    #how-it-works .img-and-dscr-wrapper {
+        margin-left: 14px;
+    }
+    .how-to-earn .description>div {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 330px;
+        font-weight: 100;
+        margin-bottom: 36px;
+    }
+    /* Landing */
+    .landing {
+        height: auto;
+        background: url("../img/wave.svg") no-repeat, linear-gradient(to bottom, #06074B 0%, #06074B 70%, #06074B 70%, #F8F8F8 70%, #F8F8F8 100%) no-repeat;
+        background-size: auto 150px, cover;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        /* padding-bottom: 30px; */
+        max-height: 935px;
+        /* height: 236vw; */
+    }
+    .header {
+        display: none
+    }
+    .work-in-progress-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #first {
+        order: 1;
+    }
+    #second {
+        order: 2;
+        margin-bottom: 12.2%;
+    }
+    #third {
+        order: 5;
+    }
+    #fourth {
+        order: 6;
+    }
+    #fifth {
+        order: 4;
+        position: static;
+        align-self: center;
+        width: 78.3%;
+        margin-bottom: 1%;
+    }
+    .header {
+        margin-bottom: 33px;
+    }
+    div.mobile-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 24px;
+        transition: background-color 300ms ease;
+        transition: padding 300ms ease;
+    }
+    .menu-wrapper {
+        width: 20px;
+    }
+    .mobile-menu.sticky {
+        position: fixed;
+        top: 0;
+        z-index: 5;
+        background-color: rgb(6, 7, 75);
+        padding-bottom: 12px;
+    }
+    .landing.sticky {
+        padding-top: 78px;
+    }
+    .mobile-logo-wrapper {
+        max-width: 106px;
+        max-height: 42px;
+    }
+    .img-wrapper {
+        display: flex;
+        position: static;
+        max-width: 284px;
+        max-height: 424px;
+    }
+    .landing-title {
+        font-size: 36px;
+        line-height: 38px;
+        margin: 0 auto;
+        max-width: 300px;
+        margin-bottom: 24px;
+        padding-top: 4%;
+        width: 100%;
+    }
+    .landing-text {
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .release-note {
+        font-size: 15px;
+        color: rgb(33, 33, 33);
+        margin-top: 26px;
+        padding: 0;
+        margin-bottom: 5%;
+    }
+    /* Discover */
+    .discover {
+        text-align: center;
+        margin-top: 54px;
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .discover-title {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+    .discover-info {
+        font-size: 18px;
+        text-align: center;
+        line-height: 28px;
+        max-width: 330px;
+    }
+    /* Philosophy */
+    #philosophy {
+        margin-left: 20px;
+        order: 1;
+    }
+    .blockchain {
+        order:2;
+    }
+    .philosophy-heading {
+        font-size: 34px;
+        margin-bottom: 44px;
+        text-align: left;
+    }
+    .philosophy-wrapper {
+        padding: 0;
+    }
+    .philosophy-container {
+        display: grid;
+        grid-template-columns: 55px 275px;
+        grid-template-rows: auto auto auto auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 35px;
+    }
+    .philosophy-icon-wrapper.key img {
+        max-width: 45px;
+        margin-left: 2px;
+    }
+    .philosophy-icon-wrapper>img {
+        max-width: 50px;
+        max-height: 45px;
+        margin-left: 1px;
+    }
+    .philosophy-icon-wrapper.trust-icon img {
+        margin-left: 0px;
+        margin-top: -4px;
+    }
+    .border {
+        display: none;
+    }
+    .philosophy-icon-wrapper>img {
+        max-width: 50px;
+        max-height: 45px;
+    }
+    .philosophy-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .posts-image {
+        width: 100%;
+        overflow: hidden;
+        max-height: 464px;
+        margin-bottom: 14px;
+        margin-left: 0;
+    }
+    .blockchain .description-wrapper {
+        padding: 0 5%;
+    }
+    .blockchain .section-image>img {
+        margin-top: 0;
+        float: none;
+        width: 68%;
+        height: auto;
+    }
+    .blockchain .description-wrapper h2{
+        font-size: 34.3px;
+    }
+    .philosophy-info {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 250px;
+    }
+    /* don't need empty divs on mobile */
+    .philosophy-container>div:empty {
+        display: none;
+    }
+    /* Circle */
+    .vertical-line {
+        height: 45px;
+        margin-top: 24px;
+        margin-left: -5px;
+    }
+    .philosophy-circle {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .circle {
+        height: 140px;
+        width: 140px;
+        font-size: 18px;
+        margin-left: -19px;
+        margin-top: 11px;
+        width: 148px;
+        height: 148px;
+    }
+    /* Modal*/
+    .image-and-description {
+        display: flex;
+        flex-direction: column;
+    }
+    .background-title {
+        font-size: 65px;
+    }
+    .section-image {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .section-image .primary {
+        max-width: 200px;
+        max-height: 400px;
+        margin-left: 2%;
+    }
+    .section-image .secondary {
+        max-width: 200px;
+        max-height: 408px;
+        margin-left: 51px;
+        position: relative;
+        left: 32%;
+    }
+    .blockchain .description>h4 {
+        margin-top: -30px;
+        
+    }
+    #how-it-works .description>h4 {
+        margin-top: 20px;
+        width: 100%;
+    }
+ 
+    .description>h2 {
+        max-width: 260px;
+        font-size: 34px;
+        line-height: 36px;
+    }
+    .description>div {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 330px;
+        font-weight: 100;
+        margin-bottom: 36px;
+    }
+ 
+    /* how it works */
+    #how-it-works .image-and-description, .trust .image-and-description {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #how-it-works .image-and-description div:nth-child(1), .trust .image-and-description div:nth-child(1) {
+        order: 2;
+        /* margin-top: 10px; */
+    }
+    #how-it-works .image-and-description div:nth-child(2).trust .image-and-description div:nth-child(1) {
+        order: 1;
+    }
+    #how-it-works .background-title {
+        margin-left: 0;
+    }
+    #how-it-works, .how-to-earn, .trust {
+        margin-top: 130px;
+    }
+    #how-it-works,  .trust {
+        margin-top: 0px;
+    }
+    #how-it-works {
+        margin-top: 24%;
+    }
+    #how-it-works .description h2{
+        font-size: 34.5px;
+    }
+    #how-it-works .description>div br {
+        display: none;
+    }
+    #how-it-works .section-image {
+        margin-top: 30px;
+    }
+    /* how to earn  */
+    .how-to-earn {
+        margin-top: 130px;
+    }
+    .how-to-earn .description  {
+        margin-bottom: -50px;
+    }
+    .how-to-earn .description h2 {
+        max-width: 300px;
+    }
+    .how-to-earn .description img {
+        width: 79%;
+        margin: 0 auto;
+        float: none;
+    }
+    .how-to-earn .description-wrapper {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .trust .description {
+        margin-top: 0;
+    }
+    .trust .background-title {
+        display: none;
+    }
+    .trust .description-wrapper {
+        margin-left:0;
+    }
+    .trust .section-image>img {
+        /* max-width: 359px; */
+        margin-left: 0;
+        max-height: 661px;
+        float: none;
+        margin: 0 auto;
+        width: 88%;
+        display: block;
+        margin-top: -10px;
+    }
+    .description.discription--first {
+        width: 40%;
+        padding-left: 12.4%;
+        max-width: none;
+    }
+    .tokens {
+        order: 2;
+        margin-top: 6px;
+    }
+    .extra-tokens .description>h2 {
+        max-width: 264px;
+        font-size: 34px;
+        line-height: 36px;
+    }
+    .tokens-wrapper {
+        padding: 0 10%;
+    }
+    /* extra tokens */
+    .extra-tokens {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 114px;
+    }
+    #philanthropy .row {
+        display: block;
+        flex-flow: row;
+    }
+    #philanthropy .flex {
+        display: flex;
+        flex-flow: column;
+    }
+    #philanthropy .content {
+        width: 100%;
+        right: 0;
+    }
+    section#philanthropy img {
+        display: block;
+        margin-bottom: 40px;
+    }
+    .philanthropy__img {
+        width: 100%;
+        order: 2;
+    }
+    .latest-updates {
+        padding-left: 20px;
+        display: block;
+        padding-bottom: 14px;
+        padding-top: 44px;
+    }
+    #touch .description {
+        padding-top: 54px;
+    }
+    #touch .description>p.follow {
+        margin-top: 60px;
+    }
+    .latest-updates .description h2 {
+        font-size: 34px;
+    }
+    .latest-updates .mail-form {
+        margin-top: 32px;
+        padding-left: 3%;
+        width: 50%;
+        min-width: 600px;
+    }
+    .description>h4 {
+        font-size: 14px;
+    }
+    .contact-form {
+        width: 100%;
+        margin-top: 6.8%;
+    }
+    group.mail, .group.company {
+        width: 100%;
+    }
+    .latest-updates input[type="email"] {
+        width: 73%;
+        padding-right: 100px;
+    }
+    section#philanthropy {
+        margin-bottom: 40px;
+        padding-top: 15%;
+    }
+    section#philanthropy .content .text {
+        font-weight:300;
+    }
+    section#philanthropy .content .title {
+        font-size: 34.3px;
+    }
+    section#philanthropy .backTitle {
+        display: none;
+    }
+    .extra-tokens .description>h4 {
+        margin-top: 10px;
+    }
+    section#philanthropy .content .small {
+        font-size: 18px;
+    }
+    section#philanthropy .content .text {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 330px;
+        font-weight: 100;
+    }
+    #philanthropy .container {
+        padding: 0 7%;
+    }
+    .extra-tokens .description.description.discription--first {
+        width: 100%;
+        padding-left: 0;
+    }
+    .extra-tokens .description.description.discription--second {
+        width: 100%;
+        justify-self: right;
+        justify-content: right;
+        padding-left: 0%;
+        padding-top: 2.4%;
+        max-width: none;
+    }
+    .tokens-wrapper {
+        grid-template-columns: none;
+        padding: 0 8%;
+    }
+    .status-image, .sport-image {
+        width: 100%;
+        max-height: 410px;
+        justify-self: left;
+        display: none;
+    }
+    .status-image {
+        display: none;
+    }
+    .background-title {
+        opacity: 0 !important;
+    }
+    .sport-image {
+        display: block;
+        max-height: 460px;
+    }
+    .blockchain .section-image>img {
+        margin: 0 auto;
+    }
+    .blockchain-mob .image-and-description {
+        margin-top: 22%;
+    }
+    .tokens-wrapper .background-title {
+        margin-left: -110px;
+    }
+    /* blockchain */
+    .blockchain .background-title {
+        margin-left: 20px;
+    }
+    .footer-container {
+        display: block;
+    }
+    .blockchain .section-image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blockchain .description>div {
+        max-width: 330px;
+    }
+    .back-to-top {
+        margin-top: 5px;
+        margin-bottom: 64px;
+    }
+    /* Latest updates */
+    .latest-updates {
+        padding-left: 20px;
+    }
+    .latest-updates input[type="email"] {
+        width: 310px;
+        padding-right: 100px;
+    }
+    .latest-updates input[type="submit"] {
+        margin-left: -110px;
+        width: 110px;
+    }
+    .checkbox-label {
+        max-width: 280px;
+    }
+    /* Touch */
+    #touch {
+        margin-left: 5%;
+        margin-top: -3%;
+        padding-right: 5%;
+    }
+    .two-inputs-in-line {
+        flex-direction: column;
+    }
+    .group.message>p {
+        margin-top: 10px;
+        margin-bottom: 24px;
+    }
+    .group.name, .group.message, .group.mail {
+        width: 100%;
+        margin-bottom: 54px;
+    }
+    .contact-form input {
+        max-width: 72%;
+    }
+}
+
+/* small mobile */
+
+@media only screen and (max-width: 330px) {
+    .philosophy-container {
+        grid-template-columns: 45px 71%;
+    }
+    .latest-updates input[type="email"] {
+        width: 275px;
+    }
+    .follow-icons {
+        width: 320px;
+    }
+    .section-image, .description-wrapper {
+        max-width: 289px;
+    }
+    .description {
+        max-width: 293px !important;
+    }
+    .tokens-wrapper {
+        padding: 0;
+    }
+    .latest-updates .checkbox-label {
+        max-width: 230px;
+    }
+    #how-it-works .secondary {
+        margin-top: -30px;
+        margin-left: -191px;
+    }
+}
+
+/* mobile landscape */
+
+@media screen and (min-width:320px) and (max-width:900px) and (orientation:landscape) {
+    .container {
+        display: block;
+        max-width: 1154px;
+        margin: 0 auto;
+        padding: 0 25px;
+    }
+    .overlay ul {
+        margin-top: 60px;
+        padding-right: 80px; 
+    }
+    .header {
+        margin-bottom: 12.1%;
+    }
+    .landing-title {
+        font-size: 43px;
+        width: 52%;
+        line-height: 46px;
+    }
+    .landing-text {
+        max-width: 266px;
+        font-size: 20px;
+    }
+    .blockchain .section-image>img {
+        margin-left: 12%;
+        width: 216px;
+        margin-top: 28%;
+    }
+    .app-store, .play-store {
+        max-width: 102px;
+        max-height: 41px;
+    }
+    .play-store {
+        max-width: 114px !important;
+        margin-left: 19px;
+    }
+    .discover {
+        margin-top: 10.1%;
+    }
+    .philosophy-wrapper {
+        padding:0 20px;
+    }
+    .philosophy-container {
+        grid-template-columns: 11.6% 36% 0 68px 31%;
+    }
+    .philosophy-icon-wrapper.key img {
+        max-width: 45px;
+        margin-left: 22px;
+    }
+    .philosophy-icon-wrapper>img {
+        max-width: 95px;
+        /* max-height: 75px; */
+        width: 100%;
+        margin-left: -3px;
+    }
+    .border {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .philosophy-icon-wrapper.trust-icon img {
+        margin-left: 1px;
+        margin-top: 4px;
+        max-width: 66px;
+    }
+    #how-it-works .secondary {
+        margin-top: -116px;
+        margin-left: -207px;
+    }
+    #how-it-works .primary {
+        margin-top: -100px;
+        margin-left: -20px;
+    }
+    #how-it-works .image-and-description {
+        grid-template-columns: 37% 40.4%;
+        grid-column-gap: 5%;
+    }
+    .how-to-earn .description-wrapper {
+        margin-top: 0;
+    }
+    .how-to-earn .image-and-description {
+        grid-column-gap: 3.5%;
+        grid-template-columns: 41% 34%;
+    }
+    .image-and-description {
+        grid-column-gap: 10px;
+        grid-template-columns: 43% 38%;
+    }
+    .trust {
+        margin-top: 0;
+    }
+    .description-wrapper {
+        margin-left: -8%;
+    }
+    .tokens .circle>div {
+        margin-top: 31px;
+        font-size: 19px;
+    }
+    .tokens .circle-wrapper>div {
+        left: 119px;
+        width: 130px;
+        height: 130px;
+        bottom: -30px;
+    }
+    .token {
+        margin-bottom: 40px;
+    }
+    section#philantropy {
+        padding-top: 50px;
+    }
+    .trust .section-image>img {
+        margin-left: -5px;
+    }
+    .footer-container .description {
+        padding-right: 0;
+        max-width: 600px;
+        width: 100%;
+    }
+    .latest-updates input[type="email"] {
+        width: 310px;
+    }
+    .latest-updates .mail-form {
+        padding-left: 5%;
+    }
+    .latest-updates .mail-form {
+        min-width: 390px;
+    }
+    .latest-updates__list li {
+        margin-left: 28px;
+        line-height: 28px;
+        font-size: 17px;
+        position: relative;
+    }
+}

@@ -1,0 +1,168 @@
+@charset "utf-8";
+html, body{font-family:'Roboto',sans-serif; font-weight:300; color:rgb(32,32,32); font-size:22px; line-height:1.2; word-wrap:break-word; background:#fff;}
+h1{font-size:inherit; line-height:inherit; font-weight:inherit; margin:inherit; padding:inherit;}
+.h1{font-size:48px; font-weight:400; line-height:56px; color:#2d2d2d; margin:0 0 50px 0; text-align:center; text-transform:uppercase; position:relative; z-index:1;}
+h2{font-size:inherit; line-height:inherit; font-weight:inherit; margin:inherit; padding:inherit;}
+.h2{}
+a{text-decoration:none; color:inherit; outline:none;}
+p{margin:0 0 20px 0;}
+p:last-child{margin:0;}
+textarea{resize:none;}
+input:focus {outline:none;}
+.toggleMenu{margin:0; width:40px; height: 40px; line-height: 40px; text-align: center; cursor:pointer; z-index:4; position:fixed; top:25px; right:20px; color: #fff; display:none;}
+.toggleMenu.invert {background:#fff; color:#333;}
+.transition2s{transition:all 0.2s linear 0s; -webkit-transition:all 0.2s linear 0s; -moz-transition:all 0.2s linear 0s; -o-transition:all 0.2s linear 0s; -ms-transition:all 0.2s linear 0s;}
+.transition3s{transition:all 0.3s linear 0s; -webkit-transition:all 0.3s linear 0s; -moz-transition:all 0.3s linear 0s; -o-transition:all 0.3s linear 0s; -ms-transition:all 0.3s linear 0s;}
+.center{text-align:center;}
+.nonMobile{display:block;}
+.mobile{display:none;}
+.yellow{color: rgb(252, 182, 57);}
+.flex{display:flex;}
+
+header{position:fixed; left: 0; right: 0; top: 0; z-index:3;}
+header.bg{background:rgba(12,13,79,0.9);}
+header .headerLogo{width: 170px; display: block; float: left; margin: 25px 0;}
+header.bg .headerLogo{width:120px; margin:15px 0;}
+header .headerMenu{margin:30px 0; padding: 0; list-style: none; float: right; color: #fff; font-size: 15px; font-weight: 400;}
+header.bg .headerMenu{margin:9px 0;}
+header .headerMenu li{float:left;}
+header .headerMenu li a{padding:20px 30px; display:block;}
+
+main{}
+section#landing{height: 100vh; background: url("../img/wave.svg") repeat-x 0 0 / 2560px, radial-gradient( rgb(6, 7, 75), rgb(15, 16, 81)) fixed; color: rgb(255, 255, 255); padding: 250px 0 0 0; position:relative; margin:0 0 120px 0;}
+section#landing .textHolder{width:40%; display: inline-block; float: left;}
+section#landing .textHolder .title{font-weight:700; font-size:64px; line-height:1; margin: 0 0 40px;}
+section#landing .textHolder .text{font-weight:400; font-size:24px; line-height:1.2; margin: 0 0 40px;}
+section#landing .textHolder .small{font-size:18px; font-weight:400; margin: 0 0 40px;}
+section#landing .storesHolder{width: 40%; display: inline-block; float: left; clear: both;}
+section#landing .storesHolder img{width: 150px; float: left; margin: 0 30px 0 0; opacity:0.3;}
+section#landing .media{/*width:38%; display: inline-block; float:right;*/position: absolute; left: 50%; bottom: -100px; width: 30%;}
+
+section#discover{text-align:center; margin:0 0 150px 0;}
+section#discover a{color:rgb(20,20,197);}
+section#discover .title{text-transform:uppercase; font-size:16px; margin:0 0 30px 0; font-weight:500;}
+section#discover .text{font-size:22px; line-height:1.5; max-width:800px; margin:0 auto;}
+
+section#blockchain{margin:0 0 150px 0;}
+section#blockchain .backTitle{position: absolute; font-size: 120px; font-weight: 900; color: #f9f9f9;}
+section#blockchain .yellowTitle{text-transform:uppercase; font-size:16px; margin:80px 0 30px 0; font-weight:500;}
+section#blockchain .title{font-weight:700; font-size:46px; line-height:1; color:rgb(2,16,99);}
+section#blockchain .small{font-size:20px; line-height:1.4; color:rgb(33,33,33); font-weight:700;}
+section#blockchain .text{font-size:18px; line-height:1.6; color:rgb(33,33,33);}
+section#blockchain img{max-width: 100%; width: auto; position:absolute; top:50%; left:50%; transform:translateX(-50%) translateY(-50%);}
+
+section#philosophy{}
+section#philosophy .mainTitle{color:rgb(2,16,99); font-weight:700; font-size:56px; text-align:center; margin:0 0 100px 0;}
+section#philosophy .item{width:45%; float:left; margin: 0 10% 4% 0; padding:0 0 4% 120px; position:relative;}
+section#philosophy .item:nth-child(2n){margin:0 0 4% 0;}
+section#philosophy .item:nth-last-child(n+3)::after{position: absolute; content: ""; height: 2px; width: 27px; background: rgb(2,16,99); bottom: 0; left: 120px;}
+section#philosophy .item .title{color:rgb(2,16,99); font-weight:700; font-size:24px;}
+section#philosophy .item .text{color:rgb(33,33,33); font-weight:300; font-size:18px; line-height:1.5;}
+section#philosophy .item.ownership{background:url(../img/icon-ownership.png) no-repeat 0 0 / 95px;}
+section#philosophy .item.privacy{background:url(../img/icon-privacy.png) no-repeat 0 0 / 70px;}
+section#philosophy .item.compensation{background:url(../img/icon-compensation.png) no-repeat 0 0 / 75px;}
+section#philosophy .item.trust{background:url(../img/icon-trust.png) no-repeat 0 0 / 95px;}
+
+section#beWise{position:relative; margin: 100px 0;}
+section#beWise::before{position: absolute; content: ""; width: 1px; height: 80px; background: rgb(215, 215, 215); left: 50%; top: -100px;}
+section#beWise .circle{width: 200px; height: 200px; margin: 0 auto; border-radius: 50%; background: rgb(252, 182, 57); position: relative;}
+section#beWise .circle .text{position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); width: 80%; font-size: 22px; font-weight: 700;}
+
+section#howItWorks{margin:0 0 150px 0; position:relative;}
+section#howItWorks .backTitle{position: absolute; font-size: 120px; font-weight: 900; color: #f9f9f9; left:48%;}
+section#howItWorks img{}
+section#howItWorks .content{position: absolute; top: 50%; transform: translateY(-50%);}
+section#howItWorks .content .yellowTitle{text-transform:uppercase; font-size:16px; margin:0 0 30px 0; font-weight:500;}
+section#howItWorks .content .title{font-weight:700; font-size:46px; line-height:1; color:rgb(2,16,99);}
+section#howItWorks .content .small{font-size:20px; line-height:1.4; color:rgb(33,33,33); font-weight:700;}
+section#howItWorks .content .text{font-size:18px; line-height:1.6; color:rgb(33,33,33); margin:0 0 40px 0;}
+section#howItWorks .content .footnote{font-size:14px; line-height:1.2; color:rgb(33,33,33);}
+
+section#privacy{margin:0 0 150px 0;}
+section#privacy .backTitle{position: absolute; font-size: 120px; font-weight: 900; color: #f9f9f9; left:0;}
+section#privacy img{position:relative; margin:100px 0 0 0;}
+section#privacy .content{position: absolute; bottom:20px;}
+section#privacy .content .yellowTitle{text-transform:uppercase; font-size:16px; margin:0 0 30px 0; font-weight:500;}
+section#privacy .content .title{font-weight:700; font-size:46px; line-height:1; color:rgb(2,16,99);}
+section#privacy .content .small{font-size:20px; line-height:1.4; color:rgb(33,33,33); font-weight:700;}
+section#privacy .content .text{font-size:18px; line-height:1.6; color:rgb(33,33,33); margin:0 0 40px 0;}
+section#privacy .content .footnote{font-size:14px; line-height:1.2; color:rgb(33,33,33);}
+
+section#trust{margin:0 0 150px 0; position:relative; padding: 80px 0 0 0;}
+section#trust .backTitle{position: absolute; font-size: 120px; font-weight: 900; color: #f9f9f9; left:50%; transform:translateX(-50%);}
+section#trust img{}
+section#trust .content{position: absolute; top: 50%; transform: translateY(-50%);}
+section#trust .content .yellowTitle{text-transform:uppercase; font-size:16px; margin:0 0 30px 0; font-weight:500;}
+section#trust .content .title{font-weight:700; font-size:46px; line-height:1; color:rgb(2,16,99);}
+section#trust .content .small{font-size:20px; line-height:1.4; color:rgb(33,33,33); font-weight:700;}
+section#trust .content .text{font-size:18px; line-height:1.6; color:rgb(33,33,33); margin:0 0 40px 0;}
+
+section#tokens{margin:0 0 150px 0;}
+section#tokens .backTitle{position: absolute; font-size: 120px; font-weight: 900; color: #f9f9f9;}
+section#tokens img.absolute{bottom: 0; position: absolute;}
+section#tokens img{margin:0 0 100px 0;}
+
+/*section#extraMoney{margin:0 0 100px 0; position:relative;}*/
+section#tokens .yellowTitle{text-transform:uppercase; font-size:16px; margin:0 0 30px 0; font-weight:500;}
+section#tokens .title{font-weight:700; font-size:46px; line-height:1; color:rgb(2,16,99);}
+section#tokens .text{font-size:18px; line-height:1.6; color:rgb(33,33,33); margin:0 0 40px 0;}
+section#tokens .small{font-size:20px; line-height:1.4; color:rgb(33,33,33); font-weight:700;}
+section#tokens .circle{width: 200px; height: 200px; margin: 0 auto; border-radius: 50%; background: rgb(252, 182, 57); position: absolute; right: 0; top: 10%;}
+section#tokens .circle p{position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); width: 80%; font-size: 22px; font-weight: 700;}
+
+section#philanthropy{margin:0 0 150px 0; position:relative; padding:150px 0 0 0;}
+section#philanthropy .backTitle{position: absolute; font-size: 120px; font-weight: 900; color: #f9f9f9; left:50%; transform:translateX(-20%); top:0;}
+section#philanthropy img{}
+section#philanthropy .content{position: absolute; top: 50%; transform: translateY(-50%);}
+section#philanthropy .content .yellowTitle{text-transform:uppercase; font-size:16px; margin:0 0 30px 0; font-weight:500;}
+section#philanthropy .content .title{font-weight:700; font-size:46px; line-height:1; color:rgb(2,16,99);}
+section#philanthropy .content .small{font-size:20px; line-height:1.4; color:rgb(33,33,33); font-weight:700;}
+section#philanthropy .content .text{font-size:18px; line-height:1.6; color:rgb(33,33,33);}
+
+section#lastUpdates{margin:0 0 150px 0; background:rgb(251,251,251); padding:100px 0;}
+section#lastUpdates .yellowTitle{text-transform:uppercase; font-size:16px; margin:0 0 30px 0; font-weight:500;}
+section#lastUpdates .title{font-weight:700; font-size:46px; line-height:1; color:rgb(2,16,99);}
+section#lastUpdates ul{margin:0 0 20px 0; padding:0; list-style:none;}
+section#lastUpdates ul li{position:relative; padding:0 0 0 20px;}
+section#lastUpdates ul li::before{position:absolute; content:""; width:4px; height:4px; border-radius:50%; left:0; top:50%; transform:translateY(-50%); background:rgb(251,182,58);}
+section#lastUpdates .text{font-size:18px; line-height:1.6; color:rgb(33,33,33); margin:0;}
+section#lastUpdates #subscribeform{}
+section#lastUpdates #subscribeform label{font-weight:400; font-size:14px; line-height:1; display:block; margin:0 0 5px 0;}
+section#lastUpdates #subscribeform input{width: 100%; height: 44px; position: relative; border-radius:4px; border:1px solid rgb(227,227,227); padding:0 200px 0 0;}
+section#lastUpdates #subscribeform #mc-embedded-subscribe{width:150px; height:44px; border:none; border-radius:2px; background:rgb(29,11,115); color:#fff; font-size:16px; line-height:1; position: absolute; right: 0; text-align:center; padding:0;}
+section#lastUpdates #subscribeform #mc-embedded-subscribe.disabled{opacity:0.4;}
+section#lastUpdates #subscribeform .agreeHolder{margin: 20px 0 0 0;}
+section#lastUpdates #subscribeform .agreeHolder input{display: none;}
+section#lastUpdates #subscribeform .agreeHolder label{cursor: pointer; width: 18px; height: 18px; background: rgb(251, 251, 251); border: 2px solid rgb(152, 152, 152); border-radius: 4px; position: relative; margin:0 20px 20px 0; float:left;}
+section#lastUpdates #subscribeform .agreeHolder label:after{opacity: 0; content: ''; position: absolute; width: 15px; height: 7px; background: transparent; top: 0px; left: 3px; border: 3px solid rgb(251, 182, 57); border-top: none; border-right: none; transform: rotate(-45deg);}
+section#lastUpdates #subscribeform .agreeHolder input[type=checkbox]:checked+label:after {opacity: 1;}
+section#lastUpdates #subscribeform .agreeHolder .text{font-weight:300; font-size:14px; line-height:1.4; display:block;}
+
+section#contact{padding:0 0 150px 0;}
+section#contact .yellowTitle{text-transform:uppercase; font-size:16px; margin:0 0 30px 0; font-weight:500;}
+section#contact .title{font-weight:700; font-size:56px; line-height:1; color:rgb(2,16,99);}
+section#contact .text{font-size:20px; line-height:1.5; color:rgb(33,33,33);}
+section#contact .socialHolder{margin:-100px 0 0 0; float: left;}
+section#contact .socialHolder .title{font-size:18px; line-height:1.6; color:rgb(33,33,33);}
+section#contact .socialHolder .iconsHolder{overflow:hidden;}
+section#contact .socialHolder .iconsHolder a{float:left; margin:0 10px 0 0;}
+section#contact .socialHolder .iconsHolder a img{width:auto;}
+#contactForm{}
+#contactForm .groupForm{margin: 0 0 50px 0;}
+#contactForm .groupForm label{font-size:13px; line-height:40px; color:rgb(33,33,33); font-weight:700; text-transform:uppercase; position: absolute; z-index: 1;}
+#contactForm .groupForm label span{font-size:15px; line-height:1; color:rgb(176,176,176); display:block; text-transform:none; font-weight:300;}
+#contactForm .groupForm input{border: none; border-bottom: 1px solid #d4deea; width: 100%; position: relative; padding: 0 0 0 100px; line-height: 40px; font-size: 16px;}
+#contactForm .groupForm textarea{border: none; border-bottom: 1px solid #d4deea; width: 100%; position: relative; line-height: 40px; font-size: 16px; padding:70px 0 0 0;}
+#contactForm button{background: rgb(252,182,57); border: none; color: #fff; margin: 0; float: right; font-size: 16px; padding: 12px 50px; border-radius: 2px;}
+#contactForm .twoInRow{overflow:hidden;}
+#contactForm .twoInRow .groupForm{width:45%; float:left; margin:0 10% 50px 0;}
+#contactForm .twoInRow .groupForm:nth-child(2n){margin:0 0 50px 0;}
+#mail_fail,#mail_success{display:none;padding:15px 0;margin:20px 0 0 0;float:right;font-size:13px;line-height:12px;border-radius:4px; width:100%; text-align:center;}
+#mail_success{color:#044406;background-color:#B7FBB9}
+#mail_fail{color:#D8000C;background-color:#FFBABA}
+
+footer{background: rgb(248 248 248); padding: 30px 0; font-size: 15px; line-height: 1;}
+
+#backToTop{width: 200px; margin: 0 auto 150px auto; text-align: center; cursor:pointer;}
+#backToTop img{width: auto; margin: 0 auto;}
+#backToTop span{font-weight:500; font-size:15px;}

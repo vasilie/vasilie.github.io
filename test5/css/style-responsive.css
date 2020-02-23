@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+@media(min-width:1920px) {
+    section#landing{padding: calc(400vw/19.2) 0 0 0; margin:0 0 calc(120vw/19.2) 0;}
+    section#landing .container {width:calc(1440vw/19.2); padding-left:calc(57vw/19.2); padding-right:calc(57vw/19.2);}
+    section#landing .textHolder .title{font-size: calc(64vw/19.2); margin:0 0 calc(40vw/19.2) 0;}
+    section#landing .textHolder .text{font-size:calc(24vw/19.2); margin:0 0 calc(40vw/19.2) 0;}
+    section#landing .textHolder .small{font-size:calc(18vw/19.2); margin: 0 0 calc(40vw/19.2);}
+    section#landing .storesHolder img{width:calc(150vw/19.2); margin: 0 calc(30vw/19.2) 0 0;}
+    section#landing .media {position:absolute; left:50%; bottom:calc(-100vw/19.2); width:calc(600vw/19.2);}
+    section#blockchain img{transform: translateX(-50%) translateY(-30%);}
+    section#howItWorks img{position:relative; z-index:1;}
+    section#howItWorks .backTitle{font-size: calc(135vw/19.2);}
+}
+
+@media (max-width:1439px) {
+    section#philanthropy .content{position:relative; top:0; transform:none;}
+}
+
+@media (max-width:1024px) {
+    section#landing{padding: calc(400vw/19.2) 0 0 0;}
+    section#landing .textHolder .title{font-size: calc(70vw/19.2);}
+    section#landing .storesHolder img{width:40%; margin:0 10% 0 0;}
+    section#landing .media{width:42%;}
+    section#blockchain .backTitle{font-size: calc(160vw/19.2);}
+    section#blockchain .title{font-size: calc(80vw/19.2);}
+    section#blockchain .yellowTitle{margin: calc(100vw/19.2) 0;}
+    section#philosophy .mainTitle{font-size: calc(80vw/19.2);}
+    section#philosophy .item .text{font-size:calc(30vw/19.2);}
+    section#howItWorks .content .title{font-size: calc(80vw/19.2);}
+    section#howItWorks .content .text{font-size: calc(30vw/19.2);}
+    section#howItWorks img{position:relative; z-index:1;}
+    section#privacy .backTitle{font-size: calc(200vw/19.2);}
+    section#privacy .content .title{font-size: calc(80vw/19.2);}
+    section#privacy .content .text{font-size: calc(30vw/19.2);}
+    section#trust .content .title{font-size: calc(80vw/19.2);}
+    section#trust .content .text{font-size: calc(30vw/19.2);}
+    section#tokens .title{font-size: calc(80vw/19.2);}
+    section#tokens .text{font-size: calc(30vw/19.2);}
+    section#philanthropy .backTitle{font-size: calc(180vw/19.2);}
+    section#philanthropy .content{position:relative; transform:none; top:0;}
+    section#philanthropy .content .title{font-size: calc(80vw/19.2);}
+    section#philanthropy .content .text{font-size: calc(30vw/19.2);}
+    section#lastUpdates .title{font-size: calc(80vw/19.2);}
+    section#lastUpdates .text{font-size: calc(30vw/19.2);}
+    section#contact .title{font-size: calc(80vw/19.2);}
+    #backToTop{margin:0 auto 60px auto}
+    section#lastUpdates{padding:60px 0; margin:0 0 60px 0;}
+    section#contact{padding:0 0 60px 0;}
+}
+
+@media (max-width: 1024px) and (orientation:portrait) {
+    html, body{font-size:18px;}
+    .toggleMenu{display:block;}
+    /*.flex{display:block;}*/
+    header .headerLogo{width:25%; margin: 20px;}
+    header .headerMenu{transform:translateX(100%); position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0,0.9); margin: 0; text-align: center; padding: 100px 0;}
+    header .headerMenu.active {transform: translateX(0); margin:0;}
+    header .headerMenu li{float:none;}
+    section#blockchain img{transform: translateX(-50%) translateY(-35%);}
+    /*section#landing{height: auto; padding:calc(600vw/19.2) 0 0 0; margin:0 0 60px 0;}
+    section#landing .row{display:flex; flex-direction:column;}
+    section#landing .textHolder{width:100%; text-align: center; margin:0 auto 20px auto; float: none; display: block; order:1;}
+    section#landing .textHolder .title{font-size:36px;}
+    section#landing .textHolder .text{font-size:18px;}
+    section#landing  .storesHolder{order:3; width: 100%; float: none; background: rgb(248,248,248); color: rgb(32,32,32); text-align: center; width: 120%; margin: -40px 0 0 -10%; padding: 90px 40px 50px 40px; font-size: 14px;}
+    section#landing  .storesHolder img{width:45%; margin:0 10% 0 0; opacity:1;}
+    section#landing  .storesHolder img:nth-child(2n){margin:0;}
+    section#landing .media{width: 90%; margin: 0 auto; display: block; float: none; order:2; position:relative; left:auto; bottom:0;}*/
+    section#landing .row{position: absolute; top: 50%; transform: translateY(-50%); width: 90%; margin: 0 auto;}
+    section#landing .media{bottom:auto; margin: -50px 0 0 0;}
+    section#tokens, section#discover, section#blockchain{margin:0 0 60px 0;}
+    section#tokens .backTitle{font-size:80px;}
+    section#howItWorks{padding:35px 0 0 0;}
+    section#howItWorks .backTitle{font-size:75px; left:45%; top:0;}
+    section#philanthropy{padding:80px 0 0 0;}
+    section#trust .backTitle{font-size: 80px; left:40%; top:0; transform:none;}
+}
+
+@media (max-width: 1024px) and (orientation:landscape) {
+    section#landing .textHolder{margin:120px 0 0 0;}
+    section#blockchain img{transform: translateX(-50%) translateY(-35%);}
+    section#howItWorks{padding:30px 0 0 0;}
+    section#howItWorks .backTitle{font-size:95px; top:0;}
+    section#trust{padding:100px 0 0 0;}
+    section#trust .backTitle{top:0;}
+    section#privacy .backTitle{font-size:95px;}
+    section#trust .backTitle{font-size:95px;}
+    section#tokens .backTitle{font-size:95px;}
+}
+
+@media (max-width: 649px) {
+    .nonMobile{display:none;}
+    .mobile{display:block;}
+    .toggleMenu{display:block;}
+    .flex{display:block;}
+    header .headerLogo{width: 40%; margin: 20px;}
+    header.bg .headerLogo{width: 40%; margin: 20px;}
+    header .headerMenu{transform:translateX(100%); position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0,0.9); margin: 0; text-align: center; padding: 100px 0;}
+    header .headerMenu.active {transform: translateX(0);}
+    header .headerMenu li{float:none;}
+    header.bg .headerMenu{margin:0;}
+    section#landing{height: auto; padding: 120px 0 0 0; margin:0 0 60px 0; overflow: hidden;}
+    section#landing .row{display:flex; flex-direction:column;}
+    section#landing .textHolder{width:100%; text-align: center; margin:0 auto 20px auto; float: none; display: block; order:1;}
+    section#landing .textHolder .title{font-size:36px;}
+    section#landing .textHolder .text{font-size:18px;}
+    section#landing  .storesHolder{order:3; display: block; float: none; background: rgb(248,248,248); color: rgb(32,32,32); text-align: center; width: 120%; margin: -40px 0 0 -10%; padding: 90px 40px 50px 40px; font-size: 14px;}
+    section#landing  .storesHolder img{width:45%; margin:0 10% 0 0; opacity:1;}
+    section#landing  .storesHolder img:nth-child(2n){margin:0;}
+    section#landing .media{width: 90%; margin: 0 auto; display: block; float: none; order:2; position:relative; left:auto; bottom:0;}
+    section#discover{margin:0 0 60px 0;}
+    section#discover .title{font-size:14px;}
+    section#discover .text{font-size:18px;}
+    section#blockchain{overflow:hidden; margin:0 0 60px 0;}
+    section#blockchain .backTitle{font-size:calc(340vw/19.2);}
+    section#blockchain .yellowTitle{font-size:14px; margin:40px 0 30px 0;}
+    section#blockchain .title{font-size:34px;}
+    section#blockchain .text{font-size:16px;}
+    section#blockchain img{position: relative; top: auto; left: auto; transform: none; margin: 30px auto 0 auto;}
+    section#philosophy .mainTitle{font-size:34px; text-align:left; margin: 0 0 50px 0;}
+    section#philosophy .item, section#philosophy .item:nth-child(2n){width: 100%; margin: 0 0 10% 0; padding: 0 0 0 25%;}
+    section#philosophy .item.ownership, section#philosophy .item.privacy, section#philosophy .item.compensation, section#philosophy .item.trust{background-size:17%;}
+    section#philosophy .item:nth-last-child(n+3)::after{display:none;}
+    section#philosophy .item .title{font-size:20px; margin:0 0 5px 0;}
+    section#philosophy .item .text{font-size:16px;}
+    section#beWise{margin:50px 0;}
+    section#beWise::before{height:45px; top: -50px;}
+    section#beWise .circle{width: 150px; height: 150px;}
+    section#beWise .circle .text{font-size:18px;}
+    section#howItWorks{margin:0 0 60px 0;}
+    section#howItWorks .flex{display:flex; flex-direction:column;}
+    section#howItWorks .col-lg-10{order:2;}
+    section#howItWorks .col-lg-12{order:1;}
+    section#howItWorks .backTitle{font-size:calc(320vw/19.2); top: -34px; left: 0;}
+    section#howItWorks .content{position:relative; top:auto; transform:none;}
+    section#howItWorks .content .title{font-size:34px;}
+    section#howItWorks .content .yellowTitle{font-size:14px;}
+    section#howItWorks .content .text{font-size:16px;}
+    section#howItWorks .content .footnote{display:none;}
+    section#privacy{overflow:hidden; margin:0 0 60px 0;}
+    section#privacy .flex{display:flex; flex-direction:column; margin: 38px 0 0 0;}
+    section#privacy .backTitle{font-size:calc(320vw/19.2);}
+    section#privacy .content{position:relative; bottom:auto;}
+    section#privacy .content .title{font-size:34px;}
+    section#privacy .content .text{font-size:16px;}
+    section#privacy .content .footnote{display:none;}
+    section#privacy img{margin:0;}
+    section#trust{overflow:hidden; margin:0 0 60px 0;}
+    section#trust .flex{display:flex; flex-direction:column; margin: 38px 0 0 0;}
+    section#trust .col-lg-10{order:2;}
+    section#trust .col-lg-12{order:1;}
+    section#trust .content{position:relative; top:auto; transform:none;}
+    section#trust .backTitle{display:none;}
+    section#trust .content .yellowTitle{font-size:14px;}
+    section#trust .content .title{font-size:34px;}
+    section#trust .content .text{font-size:16px;}
+    section#tokens .container{display:flex; flex-direction:column;}
+    section#tokens .row:first-of-type{order:2;}
+    section#tokens .row:last-of-type{order:1;}
+    section#tokens img{margin:0 0 20px 0;}
+    section#tokens img.absolute{position:relative;}
+    section#tokens{overflow:hidden; margin:0 0 60px 0;}
+    section#tokens .backTitle{font-size:calc(500vw/19.2);}
+    section#tokens .yellowTitle{font-size:14px; margin:60px 0 30px 0;}
+    section#tokens .title{font-size:34px; margin:0 0 20px 0;}
+    section#tokens .text{font-size:16px;}
+    section#tokens .small{font-size:20px;}
+    section#tokens .circle{display:none;}
+    section#philanthropy{overflow:hidden; margin:0 0 60px 0; padding:0;}
+    section#philanthropy .flex{display:flex; flex-direction:column; margin: 38px 0 0 0;}
+    section#philanthropy .col-lg-10{order:2;}
+    section#philanthropy .col-lg-11{order:1;}
+    section#philanthropy .backTitle{font-size:calc(320vw/19.2); left:0; transform:none;}
+    section#philanthropy .content{position:relative; top:auto; transform:none;}
+    section#philanthropy .content .title{font-size:34px;}
+    section#philanthropy .content .text{font-size:16px;}
+    section#philanthropy img{margin:20px 0 0 0;}
+    section#lastUpdates{padding:60px 0; margin:0 0 60px 0;}
+    section#lastUpdates .title{font-size:34px;}
+    section#lastUpdates .text{font-size:16px;}
+    section#lastUpdates #newsletter{margin:40px 0 0 0;}
+    section#lastUpdates #newsletter button{width:35%;}
+    section#lastUpdates #newsletter input{padding:0 35% 0 0;}
+    section#lastUpdates #newsletter .agreeHolder label{margin:0 20px 30px 0;}
+    section#contact{padding:0 0 50px 0;}
+    section#contact .yellowTitle{font-size:14px;}
+    section#contact .title{font-size:34px;}
+    section#contact .text{margin:0 0 20px 0;}
+    #contactForm .twoInRow .groupForm:nth-child(2n), #contactForm .twoInRow .groupForm{width:100%;}
+    section#contact .socialHolder{margin:50px 0 0 0;}
+    footer{text-align:center;}
+    footer p{opacity:0.5;}
+}
