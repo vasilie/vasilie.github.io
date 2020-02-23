@@ -1054,6 +1054,9 @@ section#philanthropy .content .text{font-size:18px;line-height: 27px;color:rgb(3
     width: 100%;
 
 }
+.underline {
+    text-decoration: underline;
+}
 .help-and-support .header .container{
     display: flex;
     flex-direction: row;
@@ -1507,6 +1510,10 @@ section#philanthropy .content .text{font-size:18px;line-height: 27px;color:rgb(3
     }
     .help-and-support .overlay li {
         text-decoration: none;
+    }
+    .help-and-support p {
+        font-weight: 100;
+        font-family: roboto;
     }
   
     #mobile-menu {
