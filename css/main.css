@@ -1029,13 +1029,16 @@ section#philanthropy .content .text{font-size:18px;line-height: 27px;color:rgb(3
     color: rgb(252, 182, 57);
     letter-spacing: 1.07px;
     font-size: 16px;
-    font-family: "Roboto-Medium", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 24px;
 }
 
 .help-and-support b {
-    font-family: "Roboto-Medium", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
 }
 .help-and-support .notice {
     font-size: 14px !important;
